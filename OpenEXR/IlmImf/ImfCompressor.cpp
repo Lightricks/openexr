@@ -145,7 +145,7 @@ newCompressor (Compression c, size_t maxScanLineSize, const Header &hdr)
 
       case PIZ_COMPRESSION:
 
-	return new PizCompressor (hdr, maxScanLineSize, 32);
+	return new PizCompressor (hdr, maxScanLineSize, 128);
 
       case PXR24_COMPRESSION:
 
