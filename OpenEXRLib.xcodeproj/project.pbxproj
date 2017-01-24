@@ -1,0 +1,1503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E4788EC81E3114DD00D1BF2C /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E4788EC91E3114DD00D1BF2C /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				E4788ECC1E3114E500D1BF2C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		E4788CAF1E31124600D1BF2C /* half.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CAA1E31124600D1BF2C /* half.cpp */; };
+		E4788CBB1E31125800D1BF2C /* IexBaseExc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CB11E31125800D1BF2C /* IexBaseExc.cpp */; };
+		E4788CBC1E31125800D1BF2C /* IexThrowErrnoExc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CB91E31125800D1BF2C /* IexThrowErrnoExc.cpp */; };
+		E4788CCC1E31128600D1BF2C /* IlmThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CBD1E31128600D1BF2C /* IlmThread.cpp */; };
+		E4788CCD1E31128600D1BF2C /* IlmThreadMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CC11E31128600D1BF2C /* IlmThreadMutex.cpp */; };
+		E4788CCE1E31128600D1BF2C /* IlmThreadMutexPosix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CC31E31128600D1BF2C /* IlmThreadMutexPosix.cpp */; };
+		E4788CCF1E31128600D1BF2C /* IlmThreadPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CC51E31128600D1BF2C /* IlmThreadPool.cpp */; };
+		E4788CD01E31128600D1BF2C /* IlmThreadPosix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CC71E31128600D1BF2C /* IlmThreadPosix.cpp */; };
+		E4788CD11E31128600D1BF2C /* IlmThreadSemaphore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CC81E31128600D1BF2C /* IlmThreadSemaphore.cpp */; };
+		E4788CD21E31128600D1BF2C /* IlmThreadSemaphorePosix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CCA1E31128600D1BF2C /* IlmThreadSemaphorePosix.cpp */; };
+		E4788CD31E31128600D1BF2C /* IlmThreadSemaphorePosixCompat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CCB1E31128600D1BF2C /* IlmThreadSemaphorePosixCompat.cpp */; };
+		E4788CFC1E31129E00D1BF2C /* ImathBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CD41E31129E00D1BF2C /* ImathBox.cpp */; };
+		E4788CFD1E31129E00D1BF2C /* ImathColorAlgo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CD81E31129E00D1BF2C /* ImathColorAlgo.cpp */; };
+		E4788CFE1E31129E00D1BF2C /* ImathFun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CE11E31129E00D1BF2C /* ImathFun.cpp */; };
+		E4788CFF1E31129E00D1BF2C /* ImathMatrixAlgo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CED1E31129E00D1BF2C /* ImathMatrixAlgo.cpp */; };
+		E4788D001E31129E00D1BF2C /* ImathRandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CF31E31129E00D1BF2C /* ImathRandom.cpp */; };
+		E4788D011E31129E00D1BF2C /* ImathShear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CF61E31129E00D1BF2C /* ImathShear.cpp */; };
+		E4788D021E31129E00D1BF2C /* ImathVec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788CF91E31129E00D1BF2C /* ImathVec.cpp */; };
+		E4788DCB1E3112C100D1BF2C /* ImfAcesFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D041E3112C100D1BF2C /* ImfAcesFile.cpp */; };
+		E4788DCC1E3112C100D1BF2C /* ImfAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D071E3112C100D1BF2C /* ImfAttribute.cpp */; };
+		E4788DCD1E3112C100D1BF2C /* ImfB44Compressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D0A1E3112C100D1BF2C /* ImfB44Compressor.cpp */; };
+		E4788DCE1E3112C100D1BF2C /* ImfBoxAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D0C1E3112C100D1BF2C /* ImfBoxAttribute.cpp */; };
+		E4788DCF1E3112C100D1BF2C /* ImfChannelList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D0E1E3112C100D1BF2C /* ImfChannelList.cpp */; };
+		E4788DD01E3112C100D1BF2C /* ImfChannelListAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D101E3112C100D1BF2C /* ImfChannelListAttribute.cpp */; };
+		E4788DD11E3112C100D1BF2C /* ImfChromaticities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D131E3112C100D1BF2C /* ImfChromaticities.cpp */; };
+		E4788DD21E3112C100D1BF2C /* ImfChromaticitiesAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D151E3112C100D1BF2C /* ImfChromaticitiesAttribute.cpp */; };
+		E4788DD31E3112C100D1BF2C /* ImfCompositeDeepScanLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D171E3112C100D1BF2C /* ImfCompositeDeepScanLine.cpp */; };
+		E4788DD41E3112C100D1BF2C /* ImfCompressionAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D1A1E3112C100D1BF2C /* ImfCompressionAttribute.cpp */; };
+		E4788DD51E3112C100D1BF2C /* ImfCompressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D1C1E3112C100D1BF2C /* ImfCompressor.cpp */; };
+		E4788DD61E3112C100D1BF2C /* ImfConvert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D1E1E3112C100D1BF2C /* ImfConvert.cpp */; };
+		E4788DD71E3112C100D1BF2C /* ImfCRgbaFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D201E3112C100D1BF2C /* ImfCRgbaFile.cpp */; };
+		E4788DD81E3112C100D1BF2C /* ImfDeepCompositing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D221E3112C100D1BF2C /* ImfDeepCompositing.cpp */; };
+		E4788DD91E3112C100D1BF2C /* ImfDeepFrameBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D241E3112C100D1BF2C /* ImfDeepFrameBuffer.cpp */; };
+		E4788DDA1E3112C100D1BF2C /* ImfDeepImageStateAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D271E3112C100D1BF2C /* ImfDeepImageStateAttribute.cpp */; };
+		E4788DDB1E3112C100D1BF2C /* ImfDeepScanLineInputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D291E3112C100D1BF2C /* ImfDeepScanLineInputFile.cpp */; };
+		E4788DDC1E3112C100D1BF2C /* ImfDeepScanLineInputPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D2B1E3112C100D1BF2C /* ImfDeepScanLineInputPart.cpp */; };
+		E4788DDD1E3112C100D1BF2C /* ImfDeepScanLineOutputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D2D1E3112C100D1BF2C /* ImfDeepScanLineOutputFile.cpp */; };
+		E4788DDE1E3112C100D1BF2C /* ImfDeepScanLineOutputPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D2F1E3112C100D1BF2C /* ImfDeepScanLineOutputPart.cpp */; };
+		E4788DDF1E3112C100D1BF2C /* ImfDeepTiledInputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D311E3112C100D1BF2C /* ImfDeepTiledInputFile.cpp */; };
+		E4788DE01E3112C100D1BF2C /* ImfDeepTiledInputPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D331E3112C100D1BF2C /* ImfDeepTiledInputPart.cpp */; };
+		E4788DE11E3112C100D1BF2C /* ImfDeepTiledOutputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D351E3112C100D1BF2C /* ImfDeepTiledOutputFile.cpp */; };
+		E4788DE21E3112C100D1BF2C /* ImfDeepTiledOutputPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D371E3112C100D1BF2C /* ImfDeepTiledOutputPart.cpp */; };
+		E4788DE31E3112C100D1BF2C /* ImfDoubleAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D391E3112C100D1BF2C /* ImfDoubleAttribute.cpp */; };
+		E4788DE41E3112C100D1BF2C /* ImfDwaCompressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D3B1E3112C100D1BF2C /* ImfDwaCompressor.cpp */; };
+		E4788DE51E3112C100D1BF2C /* ImfEnvmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D3E1E3112C100D1BF2C /* ImfEnvmap.cpp */; };
+		E4788DE61E3112C100D1BF2C /* ImfEnvmapAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D401E3112C100D1BF2C /* ImfEnvmapAttribute.cpp */; };
+		E4788DE71E3112C100D1BF2C /* ImfFastHuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D431E3112C100D1BF2C /* ImfFastHuf.cpp */; };
+		E4788DE81E3112C100D1BF2C /* ImfFloatAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D451E3112C100D1BF2C /* ImfFloatAttribute.cpp */; };
+		E4788DE91E3112C100D1BF2C /* ImfFloatVectorAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D471E3112C100D1BF2C /* ImfFloatVectorAttribute.cpp */; };
+		E4788DEA1E3112C100D1BF2C /* ImfFrameBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D4A1E3112C100D1BF2C /* ImfFrameBuffer.cpp */; };
+		E4788DEB1E3112C100D1BF2C /* ImfFramesPerSecond.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D4C1E3112C100D1BF2C /* ImfFramesPerSecond.cpp */; };
+		E4788DEC1E3112C100D1BF2C /* ImfGenericInputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D4E1E3112C100D1BF2C /* ImfGenericInputFile.cpp */; };
+		E4788DED1E3112C100D1BF2C /* ImfGenericOutputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D501E3112C100D1BF2C /* ImfGenericOutputFile.cpp */; };
+		E4788DEE1E3112C100D1BF2C /* ImfHeader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D521E3112C100D1BF2C /* ImfHeader.cpp */; };
+		E4788DEF1E3112C100D1BF2C /* ImfHuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D541E3112C100D1BF2C /* ImfHuf.cpp */; };
+		E4788DF01E3112C100D1BF2C /* ImfInputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D561E3112C100D1BF2C /* ImfInputFile.cpp */; };
+		E4788DF11E3112C100D1BF2C /* ImfInputPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D581E3112C100D1BF2C /* ImfInputPart.cpp */; };
+		E4788DF21E3112C100D1BF2C /* ImfInputPartData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D5A1E3112C100D1BF2C /* ImfInputPartData.cpp */; };
+		E4788DF31E3112C100D1BF2C /* ImfIntAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D5E1E3112C100D1BF2C /* ImfIntAttribute.cpp */; };
+		E4788DF41E3112C100D1BF2C /* ImfIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D601E3112C100D1BF2C /* ImfIO.cpp */; };
+		E4788DF51E3112C100D1BF2C /* ImfKeyCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D621E3112C100D1BF2C /* ImfKeyCode.cpp */; };
+		E4788DF61E3112C100D1BF2C /* ImfKeyCodeAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D641E3112C100D1BF2C /* ImfKeyCodeAttribute.cpp */; };
+		E4788DF71E3112C100D1BF2C /* ImfLineOrderAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D671E3112C100D1BF2C /* ImfLineOrderAttribute.cpp */; };
+		E4788DF81E3112C100D1BF2C /* ImfLut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D691E3112C100D1BF2C /* ImfLut.cpp */; };
+		E4788DF91E3112C100D1BF2C /* ImfMatrixAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D6B1E3112C100D1BF2C /* ImfMatrixAttribute.cpp */; };
+		E4788DFA1E3112C100D1BF2C /* ImfMisc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D6D1E3112C100D1BF2C /* ImfMisc.cpp */; };
+		E4788DFB1E3112C100D1BF2C /* ImfMultiPartInputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D6F1E3112C100D1BF2C /* ImfMultiPartInputFile.cpp */; };
+		E4788DFC1E3112C100D1BF2C /* ImfMultiPartOutputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D711E3112C100D1BF2C /* ImfMultiPartOutputFile.cpp */; };
+		E4788DFD1E3112C100D1BF2C /* ImfMultiView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D731E3112C100D1BF2C /* ImfMultiView.cpp */; };
+		E4788DFE1E3112C100D1BF2C /* ImfOpaqueAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D771E3112C100D1BF2C /* ImfOpaqueAttribute.cpp */; };
+		E4788DFF1E3112C100D1BF2C /* ImfOutputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D7A1E3112C100D1BF2C /* ImfOutputFile.cpp */; };
+		E4788E001E3112C100D1BF2C /* ImfOutputPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D7C1E3112C100D1BF2C /* ImfOutputPart.cpp */; };
+		E4788E011E3112C100D1BF2C /* ImfOutputPartData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D7E1E3112C100D1BF2C /* ImfOutputPartData.cpp */; };
+		E4788E021E3112C100D1BF2C /* ImfPartType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D821E3112C100D1BF2C /* ImfPartType.cpp */; };
+		E4788E031E3112C100D1BF2C /* ImfPizCompressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D851E3112C100D1BF2C /* ImfPizCompressor.cpp */; };
+		E4788E041E3112C100D1BF2C /* ImfPreviewImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D871E3112C100D1BF2C /* ImfPreviewImage.cpp */; };
+		E4788E051E3112C100D1BF2C /* ImfPreviewImageAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D891E3112C100D1BF2C /* ImfPreviewImageAttribute.cpp */; };
+		E4788E061E3112C100D1BF2C /* ImfPxr24Compressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D8B1E3112C100D1BF2C /* ImfPxr24Compressor.cpp */; };
+		E4788E071E3112C100D1BF2C /* ImfRational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D8D1E3112C100D1BF2C /* ImfRational.cpp */; };
+		E4788E081E3112C100D1BF2C /* ImfRationalAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D8F1E3112C100D1BF2C /* ImfRationalAttribute.cpp */; };
+		E4788E091E3112C100D1BF2C /* ImfRgbaFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D921E3112C100D1BF2C /* ImfRgbaFile.cpp */; };
+		E4788E0A1E3112C100D1BF2C /* ImfRgbaYca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D941E3112C100D1BF2C /* ImfRgbaYca.cpp */; };
+		E4788E0B1E3112C100D1BF2C /* ImfRle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D961E3112C100D1BF2C /* ImfRle.cpp */; };
+		E4788E0C1E3112C100D1BF2C /* ImfRleCompressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D981E3112C100D1BF2C /* ImfRleCompressor.cpp */; };
+		E4788E0D1E3112C100D1BF2C /* ImfScanLineInputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D9A1E3112C100D1BF2C /* ImfScanLineInputFile.cpp */; };
+		E4788E0E1E3112C100D1BF2C /* ImfStandardAttributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D9D1E3112C100D1BF2C /* ImfStandardAttributes.cpp */; };
+		E4788E0F1E3112C100D1BF2C /* ImfStdIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788D9F1E3112C100D1BF2C /* ImfStdIO.cpp */; };
+		E4788E101E3112C100D1BF2C /* ImfStringAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DA11E3112C100D1BF2C /* ImfStringAttribute.cpp */; };
+		E4788E111E3112C100D1BF2C /* ImfStringVectorAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DA31E3112C100D1BF2C /* ImfStringVectorAttribute.cpp */; };
+		E4788E121E3112C100D1BF2C /* ImfSystemSpecific.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DA51E3112C100D1BF2C /* ImfSystemSpecific.cpp */; };
+		E4788E131E3112C100D1BF2C /* ImfTestFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DA71E3112C100D1BF2C /* ImfTestFile.cpp */; };
+		E4788E141E3112C100D1BF2C /* ImfThreading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DA91E3112C100D1BF2C /* ImfThreading.cpp */; };
+		E4788E151E3112C100D1BF2C /* ImfTileDescriptionAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DAC1E3112C100D1BF2C /* ImfTileDescriptionAttribute.cpp */; };
+		E4788E161E3112C100D1BF2C /* ImfTiledInputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DAE1E3112C100D1BF2C /* ImfTiledInputFile.cpp */; };
+		E4788E171E3112C100D1BF2C /* ImfTiledInputPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DB01E3112C100D1BF2C /* ImfTiledInputPart.cpp */; };
+		E4788E181E3112C100D1BF2C /* ImfTiledMisc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DB21E3112C100D1BF2C /* ImfTiledMisc.cpp */; };
+		E4788E191E3112C100D1BF2C /* ImfTiledOutputFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DB41E3112C100D1BF2C /* ImfTiledOutputFile.cpp */; };
+		E4788E1A1E3112C100D1BF2C /* ImfTiledOutputPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DB61E3112C100D1BF2C /* ImfTiledOutputPart.cpp */; };
+		E4788E1B1E3112C100D1BF2C /* ImfTiledRgbaFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DB81E3112C100D1BF2C /* ImfTiledRgbaFile.cpp */; };
+		E4788E1C1E3112C100D1BF2C /* ImfTileOffsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DBA1E3112C100D1BF2C /* ImfTileOffsets.cpp */; };
+		E4788E1D1E3112C100D1BF2C /* ImfTimeCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DBC1E3112C100D1BF2C /* ImfTimeCode.cpp */; };
+		E4788E1E1E3112C100D1BF2C /* ImfTimeCodeAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DBE1E3112C100D1BF2C /* ImfTimeCodeAttribute.cpp */; };
+		E4788E1F1E3112C100D1BF2C /* ImfVecAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DC01E3112C100D1BF2C /* ImfVecAttribute.cpp */; };
+		E4788E201E3112C100D1BF2C /* ImfVersion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DC21E3112C100D1BF2C /* ImfVersion.cpp */; };
+		E4788E211E3112C100D1BF2C /* ImfWav.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DC41E3112C100D1BF2C /* ImfWav.cpp */; };
+		E4788E221E3112C100D1BF2C /* ImfZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DC71E3112C100D1BF2C /* ImfZip.cpp */; };
+		E4788E231E3112C100D1BF2C /* ImfZipCompressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4788DC91E3112C100D1BF2C /* ImfZipCompressor.cpp */; };
+		E4788E251E31147200D1BF2C /* half.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CAB1E31124600D1BF2C /* half.h */; };
+		E4788E261E31147200D1BF2C /* halfExport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CAC1E31124600D1BF2C /* halfExport.h */; };
+		E4788E271E31147200D1BF2C /* halfFunction.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CAD1E31124600D1BF2C /* halfFunction.h */; };
+		E4788E281E31147200D1BF2C /* halfLimits.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CAE1E31124600D1BF2C /* halfLimits.h */; };
+		E4788E291E31147F00D1BF2C /* Iex.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CB01E31125800D1BF2C /* Iex.h */; };
+		E4788E2A1E31147F00D1BF2C /* IexBaseExc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CB21E31125800D1BF2C /* IexBaseExc.h */; };
+		E4788E2B1E31147F00D1BF2C /* IexErrnoExc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CB31E31125800D1BF2C /* IexErrnoExc.h */; };
+		E4788E2C1E31147F00D1BF2C /* IexExport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CB41E31125800D1BF2C /* IexExport.h */; };
+		E4788E2D1E31147F00D1BF2C /* IexForward.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CB51E31125800D1BF2C /* IexForward.h */; };
+		E4788E2E1E31147F00D1BF2C /* IexMacros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CB61E31125800D1BF2C /* IexMacros.h */; };
+		E4788E2F1E31147F00D1BF2C /* IexMathExc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CB71E31125800D1BF2C /* IexMathExc.h */; };
+		E4788E301E31147F00D1BF2C /* IexNamespace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CB81E31125800D1BF2C /* IexNamespace.h */; };
+		E4788E311E31147F00D1BF2C /* IexThrowErrnoExc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CBA1E31125800D1BF2C /* IexThrowErrnoExc.h */; };
+		E4788E321E31148E00D1BF2C /* IlmThread.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CBE1E31128600D1BF2C /* IlmThread.h */; };
+		E4788E331E31148E00D1BF2C /* IlmThreadExport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CBF1E31128600D1BF2C /* IlmThreadExport.h */; };
+		E4788E341E31148E00D1BF2C /* IlmThreadForward.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CC01E31128600D1BF2C /* IlmThreadForward.h */; };
+		E4788E351E31148E00D1BF2C /* IlmThreadMutex.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CC21E31128600D1BF2C /* IlmThreadMutex.h */; };
+		E4788E361E31148E00D1BF2C /* IlmThreadNamespace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CC41E31128600D1BF2C /* IlmThreadNamespace.h */; };
+		E4788E371E31148E00D1BF2C /* IlmThreadPool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CC61E31128600D1BF2C /* IlmThreadPool.h */; };
+		E4788E381E31148E00D1BF2C /* IlmThreadSemaphore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CC91E31128600D1BF2C /* IlmThreadSemaphore.h */; };
+		E4788E391E31149800D1BF2C /* ImathBox.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CD51E31129E00D1BF2C /* ImathBox.h */; };
+		E4788E3A1E31149800D1BF2C /* ImathBoxAlgo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CD61E31129E00D1BF2C /* ImathBoxAlgo.h */; };
+		E4788E3B1E31149800D1BF2C /* ImathColor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CD71E31129E00D1BF2C /* ImathColor.h */; };
+		E4788E3C1E31149800D1BF2C /* ImathColorAlgo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CD91E31129E00D1BF2C /* ImathColorAlgo.h */; };
+		E4788E3D1E31149800D1BF2C /* ImathEuler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CDA1E31129E00D1BF2C /* ImathEuler.h */; };
+		E4788E3E1E31149800D1BF2C /* ImathExc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CDB1E31129E00D1BF2C /* ImathExc.h */; };
+		E4788E3F1E31149800D1BF2C /* ImathExport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CDC1E31129E00D1BF2C /* ImathExport.h */; };
+		E4788E401E31149800D1BF2C /* ImathForward.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CDD1E31129E00D1BF2C /* ImathForward.h */; };
+		E4788E411E31149800D1BF2C /* ImathFrame.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CDE1E31129E00D1BF2C /* ImathFrame.h */; };
+		E4788E421E31149800D1BF2C /* ImathFrustum.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CDF1E31129E00D1BF2C /* ImathFrustum.h */; };
+		E4788E431E31149800D1BF2C /* ImathFrustumTest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CE01E31129E00D1BF2C /* ImathFrustumTest.h */; };
+		E4788E441E31149800D1BF2C /* ImathFun.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CE21E31129E00D1BF2C /* ImathFun.h */; };
+		E4788E451E31149800D1BF2C /* ImathGL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CE31E31129E00D1BF2C /* ImathGL.h */; };
+		E4788E461E31149800D1BF2C /* ImathGLU.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CE41E31129E00D1BF2C /* ImathGLU.h */; };
+		E4788E471E31149800D1BF2C /* ImathHalfLimits.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CE51E31129E00D1BF2C /* ImathHalfLimits.h */; };
+		E4788E481E31149800D1BF2C /* ImathInt64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CE61E31129E00D1BF2C /* ImathInt64.h */; };
+		E4788E491E31149800D1BF2C /* ImathInterval.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CE71E31129E00D1BF2C /* ImathInterval.h */; };
+		E4788E4A1E31149800D1BF2C /* ImathLimits.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CE81E31129E00D1BF2C /* ImathLimits.h */; };
+		E4788E4B1E31149800D1BF2C /* ImathLine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CE91E31129E00D1BF2C /* ImathLine.h */; };
+		E4788E4C1E31149800D1BF2C /* ImathLineAlgo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CEA1E31129E00D1BF2C /* ImathLineAlgo.h */; };
+		E4788E4D1E31149800D1BF2C /* ImathMath.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CEB1E31129E00D1BF2C /* ImathMath.h */; };
+		E4788E4E1E31149800D1BF2C /* ImathMatrix.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CEC1E31129E00D1BF2C /* ImathMatrix.h */; };
+		E4788E4F1E31149800D1BF2C /* ImathMatrixAlgo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CEE1E31129E00D1BF2C /* ImathMatrixAlgo.h */; };
+		E4788E501E31149800D1BF2C /* ImathNamespace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CEF1E31129E00D1BF2C /* ImathNamespace.h */; };
+		E4788E511E31149800D1BF2C /* ImathPlane.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CF01E31129E00D1BF2C /* ImathPlane.h */; };
+		E4788E521E31149800D1BF2C /* ImathPlatform.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CF11E31129E00D1BF2C /* ImathPlatform.h */; };
+		E4788E531E31149800D1BF2C /* ImathQuat.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CF21E31129E00D1BF2C /* ImathQuat.h */; };
+		E4788E541E31149800D1BF2C /* ImathRandom.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CF41E31129E00D1BF2C /* ImathRandom.h */; };
+		E4788E551E31149800D1BF2C /* ImathRoots.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CF51E31129E00D1BF2C /* ImathRoots.h */; };
+		E4788E561E31149800D1BF2C /* ImathShear.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CF71E31129E00D1BF2C /* ImathShear.h */; };
+		E4788E571E31149800D1BF2C /* ImathSphere.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CF81E31129E00D1BF2C /* ImathSphere.h */; };
+		E4788E581E31149800D1BF2C /* ImathVec.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CFA1E31129E00D1BF2C /* ImathVec.h */; };
+		E4788E591E31149800D1BF2C /* ImathVecAlgo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788CFB1E31129E00D1BF2C /* ImathVecAlgo.h */; };
+		E4788E5A1E3114A900D1BF2C /* ImfAcesFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D051E3112C100D1BF2C /* ImfAcesFile.h */; };
+		E4788E5B1E3114A900D1BF2C /* ImfArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D061E3112C100D1BF2C /* ImfArray.h */; };
+		E4788E5C1E3114A900D1BF2C /* ImfAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D081E3112C100D1BF2C /* ImfAttribute.h */; };
+		E4788E5D1E3114A900D1BF2C /* ImfAutoArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D091E3112C100D1BF2C /* ImfAutoArray.h */; };
+		E4788E5E1E3114A900D1BF2C /* ImfB44Compressor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D0B1E3112C100D1BF2C /* ImfB44Compressor.h */; };
+		E4788E5F1E3114A900D1BF2C /* ImfBoxAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D0D1E3112C100D1BF2C /* ImfBoxAttribute.h */; };
+		E4788E601E3114A900D1BF2C /* ImfChannelList.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D0F1E3112C100D1BF2C /* ImfChannelList.h */; };
+		E4788E611E3114A900D1BF2C /* ImfChannelListAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D111E3112C100D1BF2C /* ImfChannelListAttribute.h */; };
+		E4788E621E3114A900D1BF2C /* ImfCheckedArithmetic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D121E3112C100D1BF2C /* ImfCheckedArithmetic.h */; };
+		E4788E631E3114A900D1BF2C /* ImfChromaticities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D141E3112C100D1BF2C /* ImfChromaticities.h */; };
+		E4788E641E3114A900D1BF2C /* ImfChromaticitiesAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D161E3112C100D1BF2C /* ImfChromaticitiesAttribute.h */; };
+		E4788E651E3114A900D1BF2C /* ImfCompositeDeepScanLine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D181E3112C100D1BF2C /* ImfCompositeDeepScanLine.h */; };
+		E4788E661E3114A900D1BF2C /* ImfCompression.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D191E3112C100D1BF2C /* ImfCompression.h */; };
+		E4788E671E3114A900D1BF2C /* ImfCompressionAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D1B1E3112C100D1BF2C /* ImfCompressionAttribute.h */; };
+		E4788E681E3114A900D1BF2C /* ImfCompressor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D1D1E3112C100D1BF2C /* ImfCompressor.h */; };
+		E4788E691E3114A900D1BF2C /* ImfConvert.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D1F1E3112C100D1BF2C /* ImfConvert.h */; };
+		E4788E6A1E3114A900D1BF2C /* ImfCRgbaFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D211E3112C100D1BF2C /* ImfCRgbaFile.h */; };
+		E4788E6B1E3114A900D1BF2C /* ImfDeepCompositing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D231E3112C100D1BF2C /* ImfDeepCompositing.h */; };
+		E4788E6C1E3114A900D1BF2C /* ImfDeepFrameBuffer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D251E3112C100D1BF2C /* ImfDeepFrameBuffer.h */; };
+		E4788E6D1E3114A900D1BF2C /* ImfDeepImageState.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D261E3112C100D1BF2C /* ImfDeepImageState.h */; };
+		E4788E6E1E3114A900D1BF2C /* ImfDeepImageStateAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D281E3112C100D1BF2C /* ImfDeepImageStateAttribute.h */; };
+		E4788E6F1E3114A900D1BF2C /* ImfDeepScanLineInputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D2A1E3112C100D1BF2C /* ImfDeepScanLineInputFile.h */; };
+		E4788E701E3114A900D1BF2C /* ImfDeepScanLineInputPart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D2C1E3112C100D1BF2C /* ImfDeepScanLineInputPart.h */; };
+		E4788E711E3114A900D1BF2C /* ImfDeepScanLineOutputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D2E1E3112C100D1BF2C /* ImfDeepScanLineOutputFile.h */; };
+		E4788E721E3114A900D1BF2C /* ImfDeepScanLineOutputPart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D301E3112C100D1BF2C /* ImfDeepScanLineOutputPart.h */; };
+		E4788E731E3114A900D1BF2C /* ImfDeepTiledInputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D321E3112C100D1BF2C /* ImfDeepTiledInputFile.h */; };
+		E4788E741E3114A900D1BF2C /* ImfDeepTiledInputPart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D341E3112C100D1BF2C /* ImfDeepTiledInputPart.h */; };
+		E4788E751E3114A900D1BF2C /* ImfDeepTiledOutputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D361E3112C100D1BF2C /* ImfDeepTiledOutputFile.h */; };
+		E4788E761E3114A900D1BF2C /* ImfDeepTiledOutputPart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D381E3112C100D1BF2C /* ImfDeepTiledOutputPart.h */; };
+		E4788E771E3114A900D1BF2C /* ImfDoubleAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D3A1E3112C100D1BF2C /* ImfDoubleAttribute.h */; };
+		E4788E781E3114A900D1BF2C /* ImfDwaCompressor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D3C1E3112C100D1BF2C /* ImfDwaCompressor.h */; };
+		E4788E791E3114A900D1BF2C /* ImfDwaCompressorSimd.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D3D1E3112C100D1BF2C /* ImfDwaCompressorSimd.h */; };
+		E4788E7A1E3114A900D1BF2C /* ImfEnvmap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D3F1E3112C100D1BF2C /* ImfEnvmap.h */; };
+		E4788E7B1E3114A900D1BF2C /* ImfEnvmapAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D411E3112C100D1BF2C /* ImfEnvmapAttribute.h */; };
+		E4788E7C1E3114A900D1BF2C /* ImfExport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D421E3112C100D1BF2C /* ImfExport.h */; };
+		E4788E7D1E3114A900D1BF2C /* ImfFastHuf.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D441E3112C100D1BF2C /* ImfFastHuf.h */; };
+		E4788E7E1E3114A900D1BF2C /* ImfFloatAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D461E3112C100D1BF2C /* ImfFloatAttribute.h */; };
+		E4788E7F1E3114A900D1BF2C /* ImfFloatVectorAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D481E3112C100D1BF2C /* ImfFloatVectorAttribute.h */; };
+		E4788E801E3114A900D1BF2C /* ImfForward.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D491E3112C100D1BF2C /* ImfForward.h */; };
+		E4788E811E3114A900D1BF2C /* ImfFrameBuffer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D4B1E3112C100D1BF2C /* ImfFrameBuffer.h */; };
+		E4788E821E3114A900D1BF2C /* ImfFramesPerSecond.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D4D1E3112C100D1BF2C /* ImfFramesPerSecond.h */; };
+		E4788E831E3114A900D1BF2C /* ImfGenericInputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D4F1E3112C100D1BF2C /* ImfGenericInputFile.h */; };
+		E4788E841E3114A900D1BF2C /* ImfGenericOutputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D511E3112C100D1BF2C /* ImfGenericOutputFile.h */; };
+		E4788E851E3114A900D1BF2C /* ImfHeader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D531E3112C100D1BF2C /* ImfHeader.h */; };
+		E4788E861E3114A900D1BF2C /* ImfHuf.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D551E3112C100D1BF2C /* ImfHuf.h */; };
+		E4788E871E3114A900D1BF2C /* ImfInputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D571E3112C100D1BF2C /* ImfInputFile.h */; };
+		E4788E881E3114A900D1BF2C /* ImfInputPart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D591E3112C100D1BF2C /* ImfInputPart.h */; };
+		E4788E891E3114A900D1BF2C /* ImfInputPartData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D5B1E3112C100D1BF2C /* ImfInputPartData.h */; };
+		E4788E8A1E3114A900D1BF2C /* ImfInputStreamMutex.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D5C1E3112C100D1BF2C /* ImfInputStreamMutex.h */; };
+		E4788E8B1E3114A900D1BF2C /* ImfInt64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D5D1E3112C100D1BF2C /* ImfInt64.h */; };
+		E4788E8C1E3114A900D1BF2C /* ImfIntAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D5F1E3112C100D1BF2C /* ImfIntAttribute.h */; };
+		E4788E8D1E3114A900D1BF2C /* ImfIO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D611E3112C100D1BF2C /* ImfIO.h */; };
+		E4788E8E1E3114A900D1BF2C /* ImfKeyCode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D631E3112C100D1BF2C /* ImfKeyCode.h */; };
+		E4788E8F1E3114A900D1BF2C /* ImfKeyCodeAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D651E3112C100D1BF2C /* ImfKeyCodeAttribute.h */; };
+		E4788E901E3114A900D1BF2C /* ImfLineOrder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D661E3112C100D1BF2C /* ImfLineOrder.h */; };
+		E4788E911E3114A900D1BF2C /* ImfLineOrderAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D681E3112C100D1BF2C /* ImfLineOrderAttribute.h */; };
+		E4788E921E3114A900D1BF2C /* ImfLut.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D6A1E3112C100D1BF2C /* ImfLut.h */; };
+		E4788E931E3114A900D1BF2C /* ImfMatrixAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D6C1E3112C100D1BF2C /* ImfMatrixAttribute.h */; };
+		E4788E941E3114A900D1BF2C /* ImfMisc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D6E1E3112C100D1BF2C /* ImfMisc.h */; };
+		E4788E951E3114A900D1BF2C /* ImfMultiPartInputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D701E3112C100D1BF2C /* ImfMultiPartInputFile.h */; };
+		E4788E961E3114A900D1BF2C /* ImfMultiPartOutputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D721E3112C100D1BF2C /* ImfMultiPartOutputFile.h */; };
+		E4788E971E3114A900D1BF2C /* ImfMultiView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D741E3112C100D1BF2C /* ImfMultiView.h */; };
+		E4788E981E3114A900D1BF2C /* ImfName.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D751E3112C100D1BF2C /* ImfName.h */; };
+		E4788E991E3114A900D1BF2C /* ImfNamespace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D761E3112C100D1BF2C /* ImfNamespace.h */; };
+		E4788E9A1E3114A900D1BF2C /* ImfOpaqueAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D781E3112C100D1BF2C /* ImfOpaqueAttribute.h */; };
+		E4788E9B1E3114A900D1BF2C /* ImfOptimizedPixelReading.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D791E3112C100D1BF2C /* ImfOptimizedPixelReading.h */; };
+		E4788E9C1E3114A900D1BF2C /* ImfOutputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D7B1E3112C100D1BF2C /* ImfOutputFile.h */; };
+		E4788E9D1E3114A900D1BF2C /* ImfOutputPart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D7D1E3112C100D1BF2C /* ImfOutputPart.h */; };
+		E4788E9E1E3114A900D1BF2C /* ImfOutputPartData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D7F1E3112C100D1BF2C /* ImfOutputPartData.h */; };
+		E4788E9F1E3114A900D1BF2C /* ImfOutputStreamMutex.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D801E3112C100D1BF2C /* ImfOutputStreamMutex.h */; };
+		E4788EA01E3114A900D1BF2C /* ImfPartHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D811E3112C100D1BF2C /* ImfPartHelper.h */; };
+		E4788EA11E3114A900D1BF2C /* ImfPartType.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D831E3112C100D1BF2C /* ImfPartType.h */; };
+		E4788EA21E3114A900D1BF2C /* ImfPixelType.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D841E3112C100D1BF2C /* ImfPixelType.h */; };
+		E4788EA31E3114A900D1BF2C /* ImfPizCompressor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D861E3112C100D1BF2C /* ImfPizCompressor.h */; };
+		E4788EA41E3114A900D1BF2C /* ImfPreviewImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D881E3112C100D1BF2C /* ImfPreviewImage.h */; };
+		E4788EA51E3114A900D1BF2C /* ImfPreviewImageAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D8A1E3112C100D1BF2C /* ImfPreviewImageAttribute.h */; };
+		E4788EA61E3114A900D1BF2C /* ImfPxr24Compressor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D8C1E3112C100D1BF2C /* ImfPxr24Compressor.h */; };
+		E4788EA71E3114A900D1BF2C /* ImfRational.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D8E1E3112C100D1BF2C /* ImfRational.h */; };
+		E4788EA81E3114A900D1BF2C /* ImfRationalAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D901E3112C100D1BF2C /* ImfRationalAttribute.h */; };
+		E4788EA91E3114A900D1BF2C /* ImfRgba.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D911E3112C100D1BF2C /* ImfRgba.h */; };
+		E4788EAA1E3114A900D1BF2C /* ImfRgbaFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D931E3112C100D1BF2C /* ImfRgbaFile.h */; };
+		E4788EAB1E3114A900D1BF2C /* ImfRgbaYca.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D951E3112C100D1BF2C /* ImfRgbaYca.h */; };
+		E4788EAC1E3114A900D1BF2C /* ImfRle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D971E3112C100D1BF2C /* ImfRle.h */; };
+		E4788EAD1E3114A900D1BF2C /* ImfRleCompressor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D991E3112C100D1BF2C /* ImfRleCompressor.h */; };
+		E4788EAE1E3114A900D1BF2C /* ImfScanLineInputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D9B1E3112C100D1BF2C /* ImfScanLineInputFile.h */; };
+		E4788EAF1E3114A900D1BF2C /* ImfSimd.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D9C1E3112C100D1BF2C /* ImfSimd.h */; };
+		E4788EB01E3114A900D1BF2C /* ImfStandardAttributes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788D9E1E3112C100D1BF2C /* ImfStandardAttributes.h */; };
+		E4788EB11E3114A900D1BF2C /* ImfStdIO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DA01E3112C100D1BF2C /* ImfStdIO.h */; };
+		E4788EB21E3114A900D1BF2C /* ImfStringAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DA21E3112C100D1BF2C /* ImfStringAttribute.h */; };
+		E4788EB31E3114A900D1BF2C /* ImfStringVectorAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DA41E3112C100D1BF2C /* ImfStringVectorAttribute.h */; };
+		E4788EB41E3114A900D1BF2C /* ImfSystemSpecific.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DA61E3112C100D1BF2C /* ImfSystemSpecific.h */; };
+		E4788EB51E3114A900D1BF2C /* ImfTestFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DA81E3112C100D1BF2C /* ImfTestFile.h */; };
+		E4788EB61E3114A900D1BF2C /* ImfThreading.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DAA1E3112C100D1BF2C /* ImfThreading.h */; };
+		E4788EB71E3114A900D1BF2C /* ImfTileDescription.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DAB1E3112C100D1BF2C /* ImfTileDescription.h */; };
+		E4788EB81E3114A900D1BF2C /* ImfTileDescriptionAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DAD1E3112C100D1BF2C /* ImfTileDescriptionAttribute.h */; };
+		E4788EB91E3114A900D1BF2C /* ImfTiledInputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DAF1E3112C100D1BF2C /* ImfTiledInputFile.h */; };
+		E4788EBA1E3114A900D1BF2C /* ImfTiledInputPart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DB11E3112C100D1BF2C /* ImfTiledInputPart.h */; };
+		E4788EBB1E3114A900D1BF2C /* ImfTiledMisc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DB31E3112C100D1BF2C /* ImfTiledMisc.h */; };
+		E4788EBC1E3114A900D1BF2C /* ImfTiledOutputFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DB51E3112C100D1BF2C /* ImfTiledOutputFile.h */; };
+		E4788EBD1E3114A900D1BF2C /* ImfTiledOutputPart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DB71E3112C100D1BF2C /* ImfTiledOutputPart.h */; };
+		E4788EBE1E3114A900D1BF2C /* ImfTiledRgbaFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DB91E3112C100D1BF2C /* ImfTiledRgbaFile.h */; };
+		E4788EBF1E3114A900D1BF2C /* ImfTileOffsets.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DBB1E3112C100D1BF2C /* ImfTileOffsets.h */; };
+		E4788EC01E3114A900D1BF2C /* ImfTimeCode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DBD1E3112C100D1BF2C /* ImfTimeCode.h */; };
+		E4788EC11E3114A900D1BF2C /* ImfTimeCodeAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DBF1E3112C100D1BF2C /* ImfTimeCodeAttribute.h */; };
+		E4788EC21E3114A900D1BF2C /* ImfVecAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DC11E3112C100D1BF2C /* ImfVecAttribute.h */; };
+		E4788EC31E3114A900D1BF2C /* ImfVersion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DC31E3112C100D1BF2C /* ImfVersion.h */; };
+		E4788EC41E3114A900D1BF2C /* ImfWav.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DC51E3112C100D1BF2C /* ImfWav.h */; };
+		E4788EC51E3114A900D1BF2C /* ImfXdr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DC61E3112C100D1BF2C /* ImfXdr.h */; };
+		E4788EC61E3114A900D1BF2C /* ImfZip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DC81E3112C100D1BF2C /* ImfZip.h */; };
+		E4788EC71E3114A900D1BF2C /* ImfZipCompressor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DCA1E3112C100D1BF2C /* ImfZipCompressor.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4788C791E310FDC00D1BF2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E4788E5A1E3114A900D1BF2C /* ImfAcesFile.h in CopyFiles */,
+				E4788E5B1E3114A900D1BF2C /* ImfArray.h in CopyFiles */,
+				E4788E5C1E3114A900D1BF2C /* ImfAttribute.h in CopyFiles */,
+				E4788E5D1E3114A900D1BF2C /* ImfAutoArray.h in CopyFiles */,
+				E4788E5E1E3114A900D1BF2C /* ImfB44Compressor.h in CopyFiles */,
+				E4788E5F1E3114A900D1BF2C /* ImfBoxAttribute.h in CopyFiles */,
+				E4788E601E3114A900D1BF2C /* ImfChannelList.h in CopyFiles */,
+				E4788E611E3114A900D1BF2C /* ImfChannelListAttribute.h in CopyFiles */,
+				E4788E621E3114A900D1BF2C /* ImfCheckedArithmetic.h in CopyFiles */,
+				E4788E631E3114A900D1BF2C /* ImfChromaticities.h in CopyFiles */,
+				E4788E641E3114A900D1BF2C /* ImfChromaticitiesAttribute.h in CopyFiles */,
+				E4788E651E3114A900D1BF2C /* ImfCompositeDeepScanLine.h in CopyFiles */,
+				E4788E661E3114A900D1BF2C /* ImfCompression.h in CopyFiles */,
+				E4788E671E3114A900D1BF2C /* ImfCompressionAttribute.h in CopyFiles */,
+				E4788E681E3114A900D1BF2C /* ImfCompressor.h in CopyFiles */,
+				E4788E691E3114A900D1BF2C /* ImfConvert.h in CopyFiles */,
+				E4788E6A1E3114A900D1BF2C /* ImfCRgbaFile.h in CopyFiles */,
+				E4788E6B1E3114A900D1BF2C /* ImfDeepCompositing.h in CopyFiles */,
+				E4788E6C1E3114A900D1BF2C /* ImfDeepFrameBuffer.h in CopyFiles */,
+				E4788E6D1E3114A900D1BF2C /* ImfDeepImageState.h in CopyFiles */,
+				E4788E6E1E3114A900D1BF2C /* ImfDeepImageStateAttribute.h in CopyFiles */,
+				E4788E6F1E3114A900D1BF2C /* ImfDeepScanLineInputFile.h in CopyFiles */,
+				E4788E701E3114A900D1BF2C /* ImfDeepScanLineInputPart.h in CopyFiles */,
+				E4788E711E3114A900D1BF2C /* ImfDeepScanLineOutputFile.h in CopyFiles */,
+				E4788E721E3114A900D1BF2C /* ImfDeepScanLineOutputPart.h in CopyFiles */,
+				E4788E731E3114A900D1BF2C /* ImfDeepTiledInputFile.h in CopyFiles */,
+				E4788E741E3114A900D1BF2C /* ImfDeepTiledInputPart.h in CopyFiles */,
+				E4788E751E3114A900D1BF2C /* ImfDeepTiledOutputFile.h in CopyFiles */,
+				E4788E761E3114A900D1BF2C /* ImfDeepTiledOutputPart.h in CopyFiles */,
+				E4788E771E3114A900D1BF2C /* ImfDoubleAttribute.h in CopyFiles */,
+				E4788E781E3114A900D1BF2C /* ImfDwaCompressor.h in CopyFiles */,
+				E4788E791E3114A900D1BF2C /* ImfDwaCompressorSimd.h in CopyFiles */,
+				E4788E7A1E3114A900D1BF2C /* ImfEnvmap.h in CopyFiles */,
+				E4788E7B1E3114A900D1BF2C /* ImfEnvmapAttribute.h in CopyFiles */,
+				E4788E7C1E3114A900D1BF2C /* ImfExport.h in CopyFiles */,
+				E4788E7D1E3114A900D1BF2C /* ImfFastHuf.h in CopyFiles */,
+				E4788E7E1E3114A900D1BF2C /* ImfFloatAttribute.h in CopyFiles */,
+				E4788E7F1E3114A900D1BF2C /* ImfFloatVectorAttribute.h in CopyFiles */,
+				E4788E801E3114A900D1BF2C /* ImfForward.h in CopyFiles */,
+				E4788E811E3114A900D1BF2C /* ImfFrameBuffer.h in CopyFiles */,
+				E4788E821E3114A900D1BF2C /* ImfFramesPerSecond.h in CopyFiles */,
+				E4788E831E3114A900D1BF2C /* ImfGenericInputFile.h in CopyFiles */,
+				E4788E841E3114A900D1BF2C /* ImfGenericOutputFile.h in CopyFiles */,
+				E4788E851E3114A900D1BF2C /* ImfHeader.h in CopyFiles */,
+				E4788E861E3114A900D1BF2C /* ImfHuf.h in CopyFiles */,
+				E4788E871E3114A900D1BF2C /* ImfInputFile.h in CopyFiles */,
+				E4788E881E3114A900D1BF2C /* ImfInputPart.h in CopyFiles */,
+				E4788E891E3114A900D1BF2C /* ImfInputPartData.h in CopyFiles */,
+				E4788E8A1E3114A900D1BF2C /* ImfInputStreamMutex.h in CopyFiles */,
+				E4788E8B1E3114A900D1BF2C /* ImfInt64.h in CopyFiles */,
+				E4788E8C1E3114A900D1BF2C /* ImfIntAttribute.h in CopyFiles */,
+				E4788E8D1E3114A900D1BF2C /* ImfIO.h in CopyFiles */,
+				E4788E8E1E3114A900D1BF2C /* ImfKeyCode.h in CopyFiles */,
+				E4788E8F1E3114A900D1BF2C /* ImfKeyCodeAttribute.h in CopyFiles */,
+				E4788E901E3114A900D1BF2C /* ImfLineOrder.h in CopyFiles */,
+				E4788E911E3114A900D1BF2C /* ImfLineOrderAttribute.h in CopyFiles */,
+				E4788E921E3114A900D1BF2C /* ImfLut.h in CopyFiles */,
+				E4788E931E3114A900D1BF2C /* ImfMatrixAttribute.h in CopyFiles */,
+				E4788E941E3114A900D1BF2C /* ImfMisc.h in CopyFiles */,
+				E4788E951E3114A900D1BF2C /* ImfMultiPartInputFile.h in CopyFiles */,
+				E4788E961E3114A900D1BF2C /* ImfMultiPartOutputFile.h in CopyFiles */,
+				E4788E971E3114A900D1BF2C /* ImfMultiView.h in CopyFiles */,
+				E4788E981E3114A900D1BF2C /* ImfName.h in CopyFiles */,
+				E4788E991E3114A900D1BF2C /* ImfNamespace.h in CopyFiles */,
+				E4788E9A1E3114A900D1BF2C /* ImfOpaqueAttribute.h in CopyFiles */,
+				E4788E9B1E3114A900D1BF2C /* ImfOptimizedPixelReading.h in CopyFiles */,
+				E4788E9C1E3114A900D1BF2C /* ImfOutputFile.h in CopyFiles */,
+				E4788E9D1E3114A900D1BF2C /* ImfOutputPart.h in CopyFiles */,
+				E4788E9E1E3114A900D1BF2C /* ImfOutputPartData.h in CopyFiles */,
+				E4788E9F1E3114A900D1BF2C /* ImfOutputStreamMutex.h in CopyFiles */,
+				E4788EA01E3114A900D1BF2C /* ImfPartHelper.h in CopyFiles */,
+				E4788EA11E3114A900D1BF2C /* ImfPartType.h in CopyFiles */,
+				E4788EA21E3114A900D1BF2C /* ImfPixelType.h in CopyFiles */,
+				E4788EA31E3114A900D1BF2C /* ImfPizCompressor.h in CopyFiles */,
+				E4788EA41E3114A900D1BF2C /* ImfPreviewImage.h in CopyFiles */,
+				E4788EA51E3114A900D1BF2C /* ImfPreviewImageAttribute.h in CopyFiles */,
+				E4788EA61E3114A900D1BF2C /* ImfPxr24Compressor.h in CopyFiles */,
+				E4788EA71E3114A900D1BF2C /* ImfRational.h in CopyFiles */,
+				E4788EA81E3114A900D1BF2C /* ImfRationalAttribute.h in CopyFiles */,
+				E4788EA91E3114A900D1BF2C /* ImfRgba.h in CopyFiles */,
+				E4788EAA1E3114A900D1BF2C /* ImfRgbaFile.h in CopyFiles */,
+				E4788EAB1E3114A900D1BF2C /* ImfRgbaYca.h in CopyFiles */,
+				E4788EAC1E3114A900D1BF2C /* ImfRle.h in CopyFiles */,
+				E4788EAD1E3114A900D1BF2C /* ImfRleCompressor.h in CopyFiles */,
+				E4788EAE1E3114A900D1BF2C /* ImfScanLineInputFile.h in CopyFiles */,
+				E4788EAF1E3114A900D1BF2C /* ImfSimd.h in CopyFiles */,
+				E4788EB01E3114A900D1BF2C /* ImfStandardAttributes.h in CopyFiles */,
+				E4788EB11E3114A900D1BF2C /* ImfStdIO.h in CopyFiles */,
+				E4788EB21E3114A900D1BF2C /* ImfStringAttribute.h in CopyFiles */,
+				E4788EB31E3114A900D1BF2C /* ImfStringVectorAttribute.h in CopyFiles */,
+				E4788EB41E3114A900D1BF2C /* ImfSystemSpecific.h in CopyFiles */,
+				E4788EB51E3114A900D1BF2C /* ImfTestFile.h in CopyFiles */,
+				E4788EB61E3114A900D1BF2C /* ImfThreading.h in CopyFiles */,
+				E4788EB71E3114A900D1BF2C /* ImfTileDescription.h in CopyFiles */,
+				E4788EB81E3114A900D1BF2C /* ImfTileDescriptionAttribute.h in CopyFiles */,
+				E4788EB91E3114A900D1BF2C /* ImfTiledInputFile.h in CopyFiles */,
+				E4788EBA1E3114A900D1BF2C /* ImfTiledInputPart.h in CopyFiles */,
+				E4788EBB1E3114A900D1BF2C /* ImfTiledMisc.h in CopyFiles */,
+				E4788EBC1E3114A900D1BF2C /* ImfTiledOutputFile.h in CopyFiles */,
+				E4788EBD1E3114A900D1BF2C /* ImfTiledOutputPart.h in CopyFiles */,
+				E4788EBE1E3114A900D1BF2C /* ImfTiledRgbaFile.h in CopyFiles */,
+				E4788EBF1E3114A900D1BF2C /* ImfTileOffsets.h in CopyFiles */,
+				E4788EC01E3114A900D1BF2C /* ImfTimeCode.h in CopyFiles */,
+				E4788EC11E3114A900D1BF2C /* ImfTimeCodeAttribute.h in CopyFiles */,
+				E4788EC21E3114A900D1BF2C /* ImfVecAttribute.h in CopyFiles */,
+				E4788EC31E3114A900D1BF2C /* ImfVersion.h in CopyFiles */,
+				E4788EC41E3114A900D1BF2C /* ImfWav.h in CopyFiles */,
+				E4788EC51E3114A900D1BF2C /* ImfXdr.h in CopyFiles */,
+				E4788EC61E3114A900D1BF2C /* ImfZip.h in CopyFiles */,
+				E4788EC71E3114A900D1BF2C /* ImfZipCompressor.h in CopyFiles */,
+				E4788E391E31149800D1BF2C /* ImathBox.h in CopyFiles */,
+				E4788E3A1E31149800D1BF2C /* ImathBoxAlgo.h in CopyFiles */,
+				E4788E3B1E31149800D1BF2C /* ImathColor.h in CopyFiles */,
+				E4788E3C1E31149800D1BF2C /* ImathColorAlgo.h in CopyFiles */,
+				E4788E3D1E31149800D1BF2C /* ImathEuler.h in CopyFiles */,
+				E4788E3E1E31149800D1BF2C /* ImathExc.h in CopyFiles */,
+				E4788E3F1E31149800D1BF2C /* ImathExport.h in CopyFiles */,
+				E4788E401E31149800D1BF2C /* ImathForward.h in CopyFiles */,
+				E4788E411E31149800D1BF2C /* ImathFrame.h in CopyFiles */,
+				E4788E421E31149800D1BF2C /* ImathFrustum.h in CopyFiles */,
+				E4788E431E31149800D1BF2C /* ImathFrustumTest.h in CopyFiles */,
+				E4788E441E31149800D1BF2C /* ImathFun.h in CopyFiles */,
+				E4788E451E31149800D1BF2C /* ImathGL.h in CopyFiles */,
+				E4788E461E31149800D1BF2C /* ImathGLU.h in CopyFiles */,
+				E4788E471E31149800D1BF2C /* ImathHalfLimits.h in CopyFiles */,
+				E4788E481E31149800D1BF2C /* ImathInt64.h in CopyFiles */,
+				E4788E491E31149800D1BF2C /* ImathInterval.h in CopyFiles */,
+				E4788E4A1E31149800D1BF2C /* ImathLimits.h in CopyFiles */,
+				E4788E4B1E31149800D1BF2C /* ImathLine.h in CopyFiles */,
+				E4788E4C1E31149800D1BF2C /* ImathLineAlgo.h in CopyFiles */,
+				E4788E4D1E31149800D1BF2C /* ImathMath.h in CopyFiles */,
+				E4788E4E1E31149800D1BF2C /* ImathMatrix.h in CopyFiles */,
+				E4788E4F1E31149800D1BF2C /* ImathMatrixAlgo.h in CopyFiles */,
+				E4788E501E31149800D1BF2C /* ImathNamespace.h in CopyFiles */,
+				E4788E511E31149800D1BF2C /* ImathPlane.h in CopyFiles */,
+				E4788E521E31149800D1BF2C /* ImathPlatform.h in CopyFiles */,
+				E4788E531E31149800D1BF2C /* ImathQuat.h in CopyFiles */,
+				E4788E541E31149800D1BF2C /* ImathRandom.h in CopyFiles */,
+				E4788E551E31149800D1BF2C /* ImathRoots.h in CopyFiles */,
+				E4788E561E31149800D1BF2C /* ImathShear.h in CopyFiles */,
+				E4788E571E31149800D1BF2C /* ImathSphere.h in CopyFiles */,
+				E4788E581E31149800D1BF2C /* ImathVec.h in CopyFiles */,
+				E4788E591E31149800D1BF2C /* ImathVecAlgo.h in CopyFiles */,
+				E4788E321E31148E00D1BF2C /* IlmThread.h in CopyFiles */,
+				E4788E331E31148E00D1BF2C /* IlmThreadExport.h in CopyFiles */,
+				E4788E341E31148E00D1BF2C /* IlmThreadForward.h in CopyFiles */,
+				E4788E351E31148E00D1BF2C /* IlmThreadMutex.h in CopyFiles */,
+				E4788E361E31148E00D1BF2C /* IlmThreadNamespace.h in CopyFiles */,
+				E4788E371E31148E00D1BF2C /* IlmThreadPool.h in CopyFiles */,
+				E4788E381E31148E00D1BF2C /* IlmThreadSemaphore.h in CopyFiles */,
+				E4788E291E31147F00D1BF2C /* Iex.h in CopyFiles */,
+				E4788E2A1E31147F00D1BF2C /* IexBaseExc.h in CopyFiles */,
+				E4788E2B1E31147F00D1BF2C /* IexErrnoExc.h in CopyFiles */,
+				E4788E2C1E31147F00D1BF2C /* IexExport.h in CopyFiles */,
+				E4788E2D1E31147F00D1BF2C /* IexForward.h in CopyFiles */,
+				E4788E2E1E31147F00D1BF2C /* IexMacros.h in CopyFiles */,
+				E4788E2F1E31147F00D1BF2C /* IexMathExc.h in CopyFiles */,
+				E4788E301E31147F00D1BF2C /* IexNamespace.h in CopyFiles */,
+				E4788E311E31147F00D1BF2C /* IexThrowErrnoExc.h in CopyFiles */,
+				E4788E251E31147200D1BF2C /* half.h in CopyFiles */,
+				E4788E261E31147200D1BF2C /* halfExport.h in CopyFiles */,
+				E4788E271E31147200D1BF2C /* halfFunction.h in CopyFiles */,
+				E4788E281E31147200D1BF2C /* halfLimits.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E4788C7B1E310FDC00D1BF2C /* libOpenEXRLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOpenEXRLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4788CA81E31122E00D1BF2C /* AutoGenerateHeaderFiles.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = AutoGenerateHeaderFiles.sh; sourceTree = SOURCE_ROOT; };
+		E4788CA91E31122E00D1BF2C /* BuildUniversalLibrary.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = BuildUniversalLibrary.sh; sourceTree = SOURCE_ROOT; };
+		E4788CAA1E31124600D1BF2C /* half.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = half.cpp; path = IlmBase/Half/half.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CAB1E31124600D1BF2C /* half.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = half.h; path = IlmBase/Half/half.h; sourceTree = SOURCE_ROOT; };
+		E4788CAC1E31124600D1BF2C /* halfExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = halfExport.h; path = IlmBase/Half/halfExport.h; sourceTree = SOURCE_ROOT; };
+		E4788CAD1E31124600D1BF2C /* halfFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = halfFunction.h; path = IlmBase/Half/halfFunction.h; sourceTree = SOURCE_ROOT; };
+		E4788CAE1E31124600D1BF2C /* halfLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = halfLimits.h; path = IlmBase/Half/halfLimits.h; sourceTree = SOURCE_ROOT; };
+		E4788CB01E31125800D1BF2C /* Iex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Iex.h; path = IlmBase/Iex/Iex.h; sourceTree = SOURCE_ROOT; };
+		E4788CB11E31125800D1BF2C /* IexBaseExc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IexBaseExc.cpp; path = IlmBase/Iex/IexBaseExc.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CB21E31125800D1BF2C /* IexBaseExc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IexBaseExc.h; path = IlmBase/Iex/IexBaseExc.h; sourceTree = SOURCE_ROOT; };
+		E4788CB31E31125800D1BF2C /* IexErrnoExc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IexErrnoExc.h; path = IlmBase/Iex/IexErrnoExc.h; sourceTree = SOURCE_ROOT; };
+		E4788CB41E31125800D1BF2C /* IexExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IexExport.h; path = IlmBase/Iex/IexExport.h; sourceTree = SOURCE_ROOT; };
+		E4788CB51E31125800D1BF2C /* IexForward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IexForward.h; path = IlmBase/Iex/IexForward.h; sourceTree = SOURCE_ROOT; };
+		E4788CB61E31125800D1BF2C /* IexMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IexMacros.h; path = IlmBase/Iex/IexMacros.h; sourceTree = SOURCE_ROOT; };
+		E4788CB71E31125800D1BF2C /* IexMathExc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IexMathExc.h; path = IlmBase/Iex/IexMathExc.h; sourceTree = SOURCE_ROOT; };
+		E4788CB81E31125800D1BF2C /* IexNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IexNamespace.h; path = IlmBase/Iex/IexNamespace.h; sourceTree = SOURCE_ROOT; };
+		E4788CB91E31125800D1BF2C /* IexThrowErrnoExc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IexThrowErrnoExc.cpp; path = IlmBase/Iex/IexThrowErrnoExc.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CBA1E31125800D1BF2C /* IexThrowErrnoExc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IexThrowErrnoExc.h; path = IlmBase/Iex/IexThrowErrnoExc.h; sourceTree = SOURCE_ROOT; };
+		E4788CBD1E31128600D1BF2C /* IlmThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IlmThread.cpp; path = IlmBase/IlmThread/IlmThread.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CBE1E31128600D1BF2C /* IlmThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IlmThread.h; path = IlmBase/IlmThread/IlmThread.h; sourceTree = SOURCE_ROOT; };
+		E4788CBF1E31128600D1BF2C /* IlmThreadExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IlmThreadExport.h; path = IlmBase/IlmThread/IlmThreadExport.h; sourceTree = SOURCE_ROOT; };
+		E4788CC01E31128600D1BF2C /* IlmThreadForward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IlmThreadForward.h; path = IlmBase/IlmThread/IlmThreadForward.h; sourceTree = SOURCE_ROOT; };
+		E4788CC11E31128600D1BF2C /* IlmThreadMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IlmThreadMutex.cpp; path = IlmBase/IlmThread/IlmThreadMutex.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CC21E31128600D1BF2C /* IlmThreadMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IlmThreadMutex.h; path = IlmBase/IlmThread/IlmThreadMutex.h; sourceTree = SOURCE_ROOT; };
+		E4788CC31E31128600D1BF2C /* IlmThreadMutexPosix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IlmThreadMutexPosix.cpp; path = IlmBase/IlmThread/IlmThreadMutexPosix.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CC41E31128600D1BF2C /* IlmThreadNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IlmThreadNamespace.h; path = IlmBase/IlmThread/IlmThreadNamespace.h; sourceTree = SOURCE_ROOT; };
+		E4788CC51E31128600D1BF2C /* IlmThreadPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IlmThreadPool.cpp; path = IlmBase/IlmThread/IlmThreadPool.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CC61E31128600D1BF2C /* IlmThreadPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IlmThreadPool.h; path = IlmBase/IlmThread/IlmThreadPool.h; sourceTree = SOURCE_ROOT; };
+		E4788CC71E31128600D1BF2C /* IlmThreadPosix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IlmThreadPosix.cpp; path = IlmBase/IlmThread/IlmThreadPosix.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CC81E31128600D1BF2C /* IlmThreadSemaphore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IlmThreadSemaphore.cpp; path = IlmBase/IlmThread/IlmThreadSemaphore.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CC91E31128600D1BF2C /* IlmThreadSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IlmThreadSemaphore.h; path = IlmBase/IlmThread/IlmThreadSemaphore.h; sourceTree = SOURCE_ROOT; };
+		E4788CCA1E31128600D1BF2C /* IlmThreadSemaphorePosix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IlmThreadSemaphorePosix.cpp; path = IlmBase/IlmThread/IlmThreadSemaphorePosix.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CCB1E31128600D1BF2C /* IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IlmThreadSemaphorePosixCompat.cpp; path = IlmBase/IlmThread/IlmThreadSemaphorePosixCompat.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CD41E31129E00D1BF2C /* ImathBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImathBox.cpp; path = IlmBase/Imath/ImathBox.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CD51E31129E00D1BF2C /* ImathBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathBox.h; path = IlmBase/Imath/ImathBox.h; sourceTree = SOURCE_ROOT; };
+		E4788CD61E31129E00D1BF2C /* ImathBoxAlgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathBoxAlgo.h; path = IlmBase/Imath/ImathBoxAlgo.h; sourceTree = SOURCE_ROOT; };
+		E4788CD71E31129E00D1BF2C /* ImathColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathColor.h; path = IlmBase/Imath/ImathColor.h; sourceTree = SOURCE_ROOT; };
+		E4788CD81E31129E00D1BF2C /* ImathColorAlgo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImathColorAlgo.cpp; path = IlmBase/Imath/ImathColorAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CD91E31129E00D1BF2C /* ImathColorAlgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathColorAlgo.h; path = IlmBase/Imath/ImathColorAlgo.h; sourceTree = SOURCE_ROOT; };
+		E4788CDA1E31129E00D1BF2C /* ImathEuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathEuler.h; path = IlmBase/Imath/ImathEuler.h; sourceTree = SOURCE_ROOT; };
+		E4788CDB1E31129E00D1BF2C /* ImathExc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathExc.h; path = IlmBase/Imath/ImathExc.h; sourceTree = SOURCE_ROOT; };
+		E4788CDC1E31129E00D1BF2C /* ImathExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathExport.h; path = IlmBase/Imath/ImathExport.h; sourceTree = SOURCE_ROOT; };
+		E4788CDD1E31129E00D1BF2C /* ImathForward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathForward.h; path = IlmBase/Imath/ImathForward.h; sourceTree = SOURCE_ROOT; };
+		E4788CDE1E31129E00D1BF2C /* ImathFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathFrame.h; path = IlmBase/Imath/ImathFrame.h; sourceTree = SOURCE_ROOT; };
+		E4788CDF1E31129E00D1BF2C /* ImathFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathFrustum.h; path = IlmBase/Imath/ImathFrustum.h; sourceTree = SOURCE_ROOT; };
+		E4788CE01E31129E00D1BF2C /* ImathFrustumTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathFrustumTest.h; path = IlmBase/Imath/ImathFrustumTest.h; sourceTree = SOURCE_ROOT; };
+		E4788CE11E31129E00D1BF2C /* ImathFun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImathFun.cpp; path = IlmBase/Imath/ImathFun.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CE21E31129E00D1BF2C /* ImathFun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathFun.h; path = IlmBase/Imath/ImathFun.h; sourceTree = SOURCE_ROOT; };
+		E4788CE31E31129E00D1BF2C /* ImathGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathGL.h; path = IlmBase/Imath/ImathGL.h; sourceTree = SOURCE_ROOT; };
+		E4788CE41E31129E00D1BF2C /* ImathGLU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathGLU.h; path = IlmBase/Imath/ImathGLU.h; sourceTree = SOURCE_ROOT; };
+		E4788CE51E31129E00D1BF2C /* ImathHalfLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathHalfLimits.h; path = IlmBase/Imath/ImathHalfLimits.h; sourceTree = SOURCE_ROOT; };
+		E4788CE61E31129E00D1BF2C /* ImathInt64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathInt64.h; path = IlmBase/Imath/ImathInt64.h; sourceTree = SOURCE_ROOT; };
+		E4788CE71E31129E00D1BF2C /* ImathInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathInterval.h; path = IlmBase/Imath/ImathInterval.h; sourceTree = SOURCE_ROOT; };
+		E4788CE81E31129E00D1BF2C /* ImathLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathLimits.h; path = IlmBase/Imath/ImathLimits.h; sourceTree = SOURCE_ROOT; };
+		E4788CE91E31129E00D1BF2C /* ImathLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathLine.h; path = IlmBase/Imath/ImathLine.h; sourceTree = SOURCE_ROOT; };
+		E4788CEA1E31129E00D1BF2C /* ImathLineAlgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathLineAlgo.h; path = IlmBase/Imath/ImathLineAlgo.h; sourceTree = SOURCE_ROOT; };
+		E4788CEB1E31129E00D1BF2C /* ImathMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathMath.h; path = IlmBase/Imath/ImathMath.h; sourceTree = SOURCE_ROOT; };
+		E4788CEC1E31129E00D1BF2C /* ImathMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathMatrix.h; path = IlmBase/Imath/ImathMatrix.h; sourceTree = SOURCE_ROOT; };
+		E4788CED1E31129E00D1BF2C /* ImathMatrixAlgo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImathMatrixAlgo.cpp; path = IlmBase/Imath/ImathMatrixAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CEE1E31129E00D1BF2C /* ImathMatrixAlgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathMatrixAlgo.h; path = IlmBase/Imath/ImathMatrixAlgo.h; sourceTree = SOURCE_ROOT; };
+		E4788CEF1E31129E00D1BF2C /* ImathNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathNamespace.h; path = IlmBase/Imath/ImathNamespace.h; sourceTree = SOURCE_ROOT; };
+		E4788CF01E31129E00D1BF2C /* ImathPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathPlane.h; path = IlmBase/Imath/ImathPlane.h; sourceTree = SOURCE_ROOT; };
+		E4788CF11E31129E00D1BF2C /* ImathPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathPlatform.h; path = IlmBase/Imath/ImathPlatform.h; sourceTree = SOURCE_ROOT; };
+		E4788CF21E31129E00D1BF2C /* ImathQuat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathQuat.h; path = IlmBase/Imath/ImathQuat.h; sourceTree = SOURCE_ROOT; };
+		E4788CF31E31129E00D1BF2C /* ImathRandom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImathRandom.cpp; path = IlmBase/Imath/ImathRandom.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CF41E31129E00D1BF2C /* ImathRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathRandom.h; path = IlmBase/Imath/ImathRandom.h; sourceTree = SOURCE_ROOT; };
+		E4788CF51E31129E00D1BF2C /* ImathRoots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathRoots.h; path = IlmBase/Imath/ImathRoots.h; sourceTree = SOURCE_ROOT; };
+		E4788CF61E31129E00D1BF2C /* ImathShear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImathShear.cpp; path = IlmBase/Imath/ImathShear.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CF71E31129E00D1BF2C /* ImathShear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathShear.h; path = IlmBase/Imath/ImathShear.h; sourceTree = SOURCE_ROOT; };
+		E4788CF81E31129E00D1BF2C /* ImathSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathSphere.h; path = IlmBase/Imath/ImathSphere.h; sourceTree = SOURCE_ROOT; };
+		E4788CF91E31129E00D1BF2C /* ImathVec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImathVec.cpp; path = IlmBase/Imath/ImathVec.cpp; sourceTree = SOURCE_ROOT; };
+		E4788CFA1E31129E00D1BF2C /* ImathVec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathVec.h; path = IlmBase/Imath/ImathVec.h; sourceTree = SOURCE_ROOT; };
+		E4788CFB1E31129E00D1BF2C /* ImathVecAlgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImathVecAlgo.h; path = IlmBase/Imath/ImathVecAlgo.h; sourceTree = SOURCE_ROOT; };
+		E4788D041E3112C100D1BF2C /* ImfAcesFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfAcesFile.cpp; path = OpenEXR/IlmImf/ImfAcesFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D051E3112C100D1BF2C /* ImfAcesFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfAcesFile.h; path = OpenEXR/IlmImf/ImfAcesFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D061E3112C100D1BF2C /* ImfArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfArray.h; path = OpenEXR/IlmImf/ImfArray.h; sourceTree = SOURCE_ROOT; };
+		E4788D071E3112C100D1BF2C /* ImfAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfAttribute.cpp; path = OpenEXR/IlmImf/ImfAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D081E3112C100D1BF2C /* ImfAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfAttribute.h; path = OpenEXR/IlmImf/ImfAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D091E3112C100D1BF2C /* ImfAutoArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfAutoArray.h; path = OpenEXR/IlmImf/ImfAutoArray.h; sourceTree = SOURCE_ROOT; };
+		E4788D0A1E3112C100D1BF2C /* ImfB44Compressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfB44Compressor.cpp; path = OpenEXR/IlmImf/ImfB44Compressor.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D0B1E3112C100D1BF2C /* ImfB44Compressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfB44Compressor.h; path = OpenEXR/IlmImf/ImfB44Compressor.h; sourceTree = SOURCE_ROOT; };
+		E4788D0C1E3112C100D1BF2C /* ImfBoxAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfBoxAttribute.cpp; path = OpenEXR/IlmImf/ImfBoxAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D0D1E3112C100D1BF2C /* ImfBoxAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfBoxAttribute.h; path = OpenEXR/IlmImf/ImfBoxAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D0E1E3112C100D1BF2C /* ImfChannelList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfChannelList.cpp; path = OpenEXR/IlmImf/ImfChannelList.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D0F1E3112C100D1BF2C /* ImfChannelList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfChannelList.h; path = OpenEXR/IlmImf/ImfChannelList.h; sourceTree = SOURCE_ROOT; };
+		E4788D101E3112C100D1BF2C /* ImfChannelListAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfChannelListAttribute.cpp; path = OpenEXR/IlmImf/ImfChannelListAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D111E3112C100D1BF2C /* ImfChannelListAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfChannelListAttribute.h; path = OpenEXR/IlmImf/ImfChannelListAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D121E3112C100D1BF2C /* ImfCheckedArithmetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfCheckedArithmetic.h; path = OpenEXR/IlmImf/ImfCheckedArithmetic.h; sourceTree = SOURCE_ROOT; };
+		E4788D131E3112C100D1BF2C /* ImfChromaticities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfChromaticities.cpp; path = OpenEXR/IlmImf/ImfChromaticities.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D141E3112C100D1BF2C /* ImfChromaticities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfChromaticities.h; path = OpenEXR/IlmImf/ImfChromaticities.h; sourceTree = SOURCE_ROOT; };
+		E4788D151E3112C100D1BF2C /* ImfChromaticitiesAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfChromaticitiesAttribute.cpp; path = OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D161E3112C100D1BF2C /* ImfChromaticitiesAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfChromaticitiesAttribute.h; path = OpenEXR/IlmImf/ImfChromaticitiesAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D171E3112C100D1BF2C /* ImfCompositeDeepScanLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfCompositeDeepScanLine.cpp; path = OpenEXR/IlmImf/ImfCompositeDeepScanLine.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D181E3112C100D1BF2C /* ImfCompositeDeepScanLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfCompositeDeepScanLine.h; path = OpenEXR/IlmImf/ImfCompositeDeepScanLine.h; sourceTree = SOURCE_ROOT; };
+		E4788D191E3112C100D1BF2C /* ImfCompression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfCompression.h; path = OpenEXR/IlmImf/ImfCompression.h; sourceTree = SOURCE_ROOT; };
+		E4788D1A1E3112C100D1BF2C /* ImfCompressionAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfCompressionAttribute.cpp; path = OpenEXR/IlmImf/ImfCompressionAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D1B1E3112C100D1BF2C /* ImfCompressionAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfCompressionAttribute.h; path = OpenEXR/IlmImf/ImfCompressionAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D1C1E3112C100D1BF2C /* ImfCompressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfCompressor.cpp; path = OpenEXR/IlmImf/ImfCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D1D1E3112C100D1BF2C /* ImfCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfCompressor.h; path = OpenEXR/IlmImf/ImfCompressor.h; sourceTree = SOURCE_ROOT; };
+		E4788D1E1E3112C100D1BF2C /* ImfConvert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfConvert.cpp; path = OpenEXR/IlmImf/ImfConvert.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D1F1E3112C100D1BF2C /* ImfConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfConvert.h; path = OpenEXR/IlmImf/ImfConvert.h; sourceTree = SOURCE_ROOT; };
+		E4788D201E3112C100D1BF2C /* ImfCRgbaFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfCRgbaFile.cpp; path = OpenEXR/IlmImf/ImfCRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D211E3112C100D1BF2C /* ImfCRgbaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfCRgbaFile.h; path = OpenEXR/IlmImf/ImfCRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D221E3112C100D1BF2C /* ImfDeepCompositing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDeepCompositing.cpp; path = OpenEXR/IlmImf/ImfDeepCompositing.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D231E3112C100D1BF2C /* ImfDeepCompositing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepCompositing.h; path = OpenEXR/IlmImf/ImfDeepCompositing.h; sourceTree = SOURCE_ROOT; };
+		E4788D241E3112C100D1BF2C /* ImfDeepFrameBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDeepFrameBuffer.cpp; path = OpenEXR/IlmImf/ImfDeepFrameBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D251E3112C100D1BF2C /* ImfDeepFrameBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepFrameBuffer.h; path = OpenEXR/IlmImf/ImfDeepFrameBuffer.h; sourceTree = SOURCE_ROOT; };
+		E4788D261E3112C100D1BF2C /* ImfDeepImageState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepImageState.h; path = OpenEXR/IlmImf/ImfDeepImageState.h; sourceTree = SOURCE_ROOT; };
+		E4788D271E3112C100D1BF2C /* ImfDeepImageStateAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDeepImageStateAttribute.cpp; path = OpenEXR/IlmImf/ImfDeepImageStateAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D281E3112C100D1BF2C /* ImfDeepImageStateAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepImageStateAttribute.h; path = OpenEXR/IlmImf/ImfDeepImageStateAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D291E3112C100D1BF2C /* ImfDeepScanLineInputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDeepScanLineInputFile.cpp; path = OpenEXR/IlmImf/ImfDeepScanLineInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D2A1E3112C100D1BF2C /* ImfDeepScanLineInputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepScanLineInputFile.h; path = OpenEXR/IlmImf/ImfDeepScanLineInputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D2B1E3112C100D1BF2C /* ImfDeepScanLineInputPart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDeepScanLineInputPart.cpp; path = OpenEXR/IlmImf/ImfDeepScanLineInputPart.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D2C1E3112C100D1BF2C /* ImfDeepScanLineInputPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepScanLineInputPart.h; path = OpenEXR/IlmImf/ImfDeepScanLineInputPart.h; sourceTree = SOURCE_ROOT; };
+		E4788D2D1E3112C100D1BF2C /* ImfDeepScanLineOutputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDeepScanLineOutputFile.cpp; path = OpenEXR/IlmImf/ImfDeepScanLineOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D2E1E3112C100D1BF2C /* ImfDeepScanLineOutputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepScanLineOutputFile.h; path = OpenEXR/IlmImf/ImfDeepScanLineOutputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D2F1E3112C100D1BF2C /* ImfDeepScanLineOutputPart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDeepScanLineOutputPart.cpp; path = OpenEXR/IlmImf/ImfDeepScanLineOutputPart.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D301E3112C100D1BF2C /* ImfDeepScanLineOutputPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepScanLineOutputPart.h; path = OpenEXR/IlmImf/ImfDeepScanLineOutputPart.h; sourceTree = SOURCE_ROOT; };
+		E4788D311E3112C100D1BF2C /* ImfDeepTiledInputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDeepTiledInputFile.cpp; path = OpenEXR/IlmImf/ImfDeepTiledInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D321E3112C100D1BF2C /* ImfDeepTiledInputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepTiledInputFile.h; path = OpenEXR/IlmImf/ImfDeepTiledInputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D331E3112C100D1BF2C /* ImfDeepTiledInputPart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDeepTiledInputPart.cpp; path = OpenEXR/IlmImf/ImfDeepTiledInputPart.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D341E3112C100D1BF2C /* ImfDeepTiledInputPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepTiledInputPart.h; path = OpenEXR/IlmImf/ImfDeepTiledInputPart.h; sourceTree = SOURCE_ROOT; };
+		E4788D351E3112C100D1BF2C /* ImfDeepTiledOutputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDeepTiledOutputFile.cpp; path = OpenEXR/IlmImf/ImfDeepTiledOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D361E3112C100D1BF2C /* ImfDeepTiledOutputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepTiledOutputFile.h; path = OpenEXR/IlmImf/ImfDeepTiledOutputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D371E3112C100D1BF2C /* ImfDeepTiledOutputPart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDeepTiledOutputPart.cpp; path = OpenEXR/IlmImf/ImfDeepTiledOutputPart.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D381E3112C100D1BF2C /* ImfDeepTiledOutputPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDeepTiledOutputPart.h; path = OpenEXR/IlmImf/ImfDeepTiledOutputPart.h; sourceTree = SOURCE_ROOT; };
+		E4788D391E3112C100D1BF2C /* ImfDoubleAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDoubleAttribute.cpp; path = OpenEXR/IlmImf/ImfDoubleAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D3A1E3112C100D1BF2C /* ImfDoubleAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDoubleAttribute.h; path = OpenEXR/IlmImf/ImfDoubleAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D3B1E3112C100D1BF2C /* ImfDwaCompressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfDwaCompressor.cpp; path = OpenEXR/IlmImf/ImfDwaCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D3C1E3112C100D1BF2C /* ImfDwaCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDwaCompressor.h; path = OpenEXR/IlmImf/ImfDwaCompressor.h; sourceTree = SOURCE_ROOT; };
+		E4788D3D1E3112C100D1BF2C /* ImfDwaCompressorSimd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfDwaCompressorSimd.h; path = OpenEXR/IlmImf/ImfDwaCompressorSimd.h; sourceTree = SOURCE_ROOT; };
+		E4788D3E1E3112C100D1BF2C /* ImfEnvmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfEnvmap.cpp; path = OpenEXR/IlmImf/ImfEnvmap.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D3F1E3112C100D1BF2C /* ImfEnvmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfEnvmap.h; path = OpenEXR/IlmImf/ImfEnvmap.h; sourceTree = SOURCE_ROOT; };
+		E4788D401E3112C100D1BF2C /* ImfEnvmapAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfEnvmapAttribute.cpp; path = OpenEXR/IlmImf/ImfEnvmapAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D411E3112C100D1BF2C /* ImfEnvmapAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfEnvmapAttribute.h; path = OpenEXR/IlmImf/ImfEnvmapAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D421E3112C100D1BF2C /* ImfExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfExport.h; path = OpenEXR/IlmImf/ImfExport.h; sourceTree = SOURCE_ROOT; };
+		E4788D431E3112C100D1BF2C /* ImfFastHuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfFastHuf.cpp; path = OpenEXR/IlmImf/ImfFastHuf.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D441E3112C100D1BF2C /* ImfFastHuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfFastHuf.h; path = OpenEXR/IlmImf/ImfFastHuf.h; sourceTree = SOURCE_ROOT; };
+		E4788D451E3112C100D1BF2C /* ImfFloatAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfFloatAttribute.cpp; path = OpenEXR/IlmImf/ImfFloatAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D461E3112C100D1BF2C /* ImfFloatAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfFloatAttribute.h; path = OpenEXR/IlmImf/ImfFloatAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D471E3112C100D1BF2C /* ImfFloatVectorAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfFloatVectorAttribute.cpp; path = OpenEXR/IlmImf/ImfFloatVectorAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D481E3112C100D1BF2C /* ImfFloatVectorAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfFloatVectorAttribute.h; path = OpenEXR/IlmImf/ImfFloatVectorAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D491E3112C100D1BF2C /* ImfForward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfForward.h; path = OpenEXR/IlmImf/ImfForward.h; sourceTree = SOURCE_ROOT; };
+		E4788D4A1E3112C100D1BF2C /* ImfFrameBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfFrameBuffer.cpp; path = OpenEXR/IlmImf/ImfFrameBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D4B1E3112C100D1BF2C /* ImfFrameBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfFrameBuffer.h; path = OpenEXR/IlmImf/ImfFrameBuffer.h; sourceTree = SOURCE_ROOT; };
+		E4788D4C1E3112C100D1BF2C /* ImfFramesPerSecond.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfFramesPerSecond.cpp; path = OpenEXR/IlmImf/ImfFramesPerSecond.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D4D1E3112C100D1BF2C /* ImfFramesPerSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfFramesPerSecond.h; path = OpenEXR/IlmImf/ImfFramesPerSecond.h; sourceTree = SOURCE_ROOT; };
+		E4788D4E1E3112C100D1BF2C /* ImfGenericInputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfGenericInputFile.cpp; path = OpenEXR/IlmImf/ImfGenericInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D4F1E3112C100D1BF2C /* ImfGenericInputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfGenericInputFile.h; path = OpenEXR/IlmImf/ImfGenericInputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D501E3112C100D1BF2C /* ImfGenericOutputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfGenericOutputFile.cpp; path = OpenEXR/IlmImf/ImfGenericOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D511E3112C100D1BF2C /* ImfGenericOutputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfGenericOutputFile.h; path = OpenEXR/IlmImf/ImfGenericOutputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D521E3112C100D1BF2C /* ImfHeader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfHeader.cpp; path = OpenEXR/IlmImf/ImfHeader.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D531E3112C100D1BF2C /* ImfHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfHeader.h; path = OpenEXR/IlmImf/ImfHeader.h; sourceTree = SOURCE_ROOT; };
+		E4788D541E3112C100D1BF2C /* ImfHuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfHuf.cpp; path = OpenEXR/IlmImf/ImfHuf.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D551E3112C100D1BF2C /* ImfHuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfHuf.h; path = OpenEXR/IlmImf/ImfHuf.h; sourceTree = SOURCE_ROOT; };
+		E4788D561E3112C100D1BF2C /* ImfInputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfInputFile.cpp; path = OpenEXR/IlmImf/ImfInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D571E3112C100D1BF2C /* ImfInputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfInputFile.h; path = OpenEXR/IlmImf/ImfInputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D581E3112C100D1BF2C /* ImfInputPart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfInputPart.cpp; path = OpenEXR/IlmImf/ImfInputPart.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D591E3112C100D1BF2C /* ImfInputPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfInputPart.h; path = OpenEXR/IlmImf/ImfInputPart.h; sourceTree = SOURCE_ROOT; };
+		E4788D5A1E3112C100D1BF2C /* ImfInputPartData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfInputPartData.cpp; path = OpenEXR/IlmImf/ImfInputPartData.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D5B1E3112C100D1BF2C /* ImfInputPartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfInputPartData.h; path = OpenEXR/IlmImf/ImfInputPartData.h; sourceTree = SOURCE_ROOT; };
+		E4788D5C1E3112C100D1BF2C /* ImfInputStreamMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfInputStreamMutex.h; path = OpenEXR/IlmImf/ImfInputStreamMutex.h; sourceTree = SOURCE_ROOT; };
+		E4788D5D1E3112C100D1BF2C /* ImfInt64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfInt64.h; path = OpenEXR/IlmImf/ImfInt64.h; sourceTree = SOURCE_ROOT; };
+		E4788D5E1E3112C100D1BF2C /* ImfIntAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfIntAttribute.cpp; path = OpenEXR/IlmImf/ImfIntAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D5F1E3112C100D1BF2C /* ImfIntAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfIntAttribute.h; path = OpenEXR/IlmImf/ImfIntAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D601E3112C100D1BF2C /* ImfIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfIO.cpp; path = OpenEXR/IlmImf/ImfIO.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D611E3112C100D1BF2C /* ImfIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfIO.h; path = OpenEXR/IlmImf/ImfIO.h; sourceTree = SOURCE_ROOT; };
+		E4788D621E3112C100D1BF2C /* ImfKeyCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfKeyCode.cpp; path = OpenEXR/IlmImf/ImfKeyCode.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D631E3112C100D1BF2C /* ImfKeyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfKeyCode.h; path = OpenEXR/IlmImf/ImfKeyCode.h; sourceTree = SOURCE_ROOT; };
+		E4788D641E3112C100D1BF2C /* ImfKeyCodeAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfKeyCodeAttribute.cpp; path = OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D651E3112C100D1BF2C /* ImfKeyCodeAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfKeyCodeAttribute.h; path = OpenEXR/IlmImf/ImfKeyCodeAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D661E3112C100D1BF2C /* ImfLineOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfLineOrder.h; path = OpenEXR/IlmImf/ImfLineOrder.h; sourceTree = SOURCE_ROOT; };
+		E4788D671E3112C100D1BF2C /* ImfLineOrderAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfLineOrderAttribute.cpp; path = OpenEXR/IlmImf/ImfLineOrderAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D681E3112C100D1BF2C /* ImfLineOrderAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfLineOrderAttribute.h; path = OpenEXR/IlmImf/ImfLineOrderAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D691E3112C100D1BF2C /* ImfLut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfLut.cpp; path = OpenEXR/IlmImf/ImfLut.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D6A1E3112C100D1BF2C /* ImfLut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfLut.h; path = OpenEXR/IlmImf/ImfLut.h; sourceTree = SOURCE_ROOT; };
+		E4788D6B1E3112C100D1BF2C /* ImfMatrixAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfMatrixAttribute.cpp; path = OpenEXR/IlmImf/ImfMatrixAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D6C1E3112C100D1BF2C /* ImfMatrixAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfMatrixAttribute.h; path = OpenEXR/IlmImf/ImfMatrixAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D6D1E3112C100D1BF2C /* ImfMisc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfMisc.cpp; path = OpenEXR/IlmImf/ImfMisc.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D6E1E3112C100D1BF2C /* ImfMisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfMisc.h; path = OpenEXR/IlmImf/ImfMisc.h; sourceTree = SOURCE_ROOT; };
+		E4788D6F1E3112C100D1BF2C /* ImfMultiPartInputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfMultiPartInputFile.cpp; path = OpenEXR/IlmImf/ImfMultiPartInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D701E3112C100D1BF2C /* ImfMultiPartInputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfMultiPartInputFile.h; path = OpenEXR/IlmImf/ImfMultiPartInputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D711E3112C100D1BF2C /* ImfMultiPartOutputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfMultiPartOutputFile.cpp; path = OpenEXR/IlmImf/ImfMultiPartOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D721E3112C100D1BF2C /* ImfMultiPartOutputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfMultiPartOutputFile.h; path = OpenEXR/IlmImf/ImfMultiPartOutputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D731E3112C100D1BF2C /* ImfMultiView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfMultiView.cpp; path = OpenEXR/IlmImf/ImfMultiView.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D741E3112C100D1BF2C /* ImfMultiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfMultiView.h; path = OpenEXR/IlmImf/ImfMultiView.h; sourceTree = SOURCE_ROOT; };
+		E4788D751E3112C100D1BF2C /* ImfName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfName.h; path = OpenEXR/IlmImf/ImfName.h; sourceTree = SOURCE_ROOT; };
+		E4788D761E3112C100D1BF2C /* ImfNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfNamespace.h; path = OpenEXR/IlmImf/ImfNamespace.h; sourceTree = SOURCE_ROOT; };
+		E4788D771E3112C100D1BF2C /* ImfOpaqueAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfOpaqueAttribute.cpp; path = OpenEXR/IlmImf/ImfOpaqueAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D781E3112C100D1BF2C /* ImfOpaqueAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfOpaqueAttribute.h; path = OpenEXR/IlmImf/ImfOpaqueAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D791E3112C100D1BF2C /* ImfOptimizedPixelReading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfOptimizedPixelReading.h; path = OpenEXR/IlmImf/ImfOptimizedPixelReading.h; sourceTree = SOURCE_ROOT; };
+		E4788D7A1E3112C100D1BF2C /* ImfOutputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfOutputFile.cpp; path = OpenEXR/IlmImf/ImfOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D7B1E3112C100D1BF2C /* ImfOutputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfOutputFile.h; path = OpenEXR/IlmImf/ImfOutputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D7C1E3112C100D1BF2C /* ImfOutputPart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfOutputPart.cpp; path = OpenEXR/IlmImf/ImfOutputPart.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D7D1E3112C100D1BF2C /* ImfOutputPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfOutputPart.h; path = OpenEXR/IlmImf/ImfOutputPart.h; sourceTree = SOURCE_ROOT; };
+		E4788D7E1E3112C100D1BF2C /* ImfOutputPartData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfOutputPartData.cpp; path = OpenEXR/IlmImf/ImfOutputPartData.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D7F1E3112C100D1BF2C /* ImfOutputPartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfOutputPartData.h; path = OpenEXR/IlmImf/ImfOutputPartData.h; sourceTree = SOURCE_ROOT; };
+		E4788D801E3112C100D1BF2C /* ImfOutputStreamMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfOutputStreamMutex.h; path = OpenEXR/IlmImf/ImfOutputStreamMutex.h; sourceTree = SOURCE_ROOT; };
+		E4788D811E3112C100D1BF2C /* ImfPartHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfPartHelper.h; path = OpenEXR/IlmImf/ImfPartHelper.h; sourceTree = SOURCE_ROOT; };
+		E4788D821E3112C100D1BF2C /* ImfPartType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfPartType.cpp; path = OpenEXR/IlmImf/ImfPartType.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D831E3112C100D1BF2C /* ImfPartType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfPartType.h; path = OpenEXR/IlmImf/ImfPartType.h; sourceTree = SOURCE_ROOT; };
+		E4788D841E3112C100D1BF2C /* ImfPixelType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfPixelType.h; path = OpenEXR/IlmImf/ImfPixelType.h; sourceTree = SOURCE_ROOT; };
+		E4788D851E3112C100D1BF2C /* ImfPizCompressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfPizCompressor.cpp; path = OpenEXR/IlmImf/ImfPizCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D861E3112C100D1BF2C /* ImfPizCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfPizCompressor.h; path = OpenEXR/IlmImf/ImfPizCompressor.h; sourceTree = SOURCE_ROOT; };
+		E4788D871E3112C100D1BF2C /* ImfPreviewImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfPreviewImage.cpp; path = OpenEXR/IlmImf/ImfPreviewImage.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D881E3112C100D1BF2C /* ImfPreviewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfPreviewImage.h; path = OpenEXR/IlmImf/ImfPreviewImage.h; sourceTree = SOURCE_ROOT; };
+		E4788D891E3112C100D1BF2C /* ImfPreviewImageAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfPreviewImageAttribute.cpp; path = OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D8A1E3112C100D1BF2C /* ImfPreviewImageAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfPreviewImageAttribute.h; path = OpenEXR/IlmImf/ImfPreviewImageAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D8B1E3112C100D1BF2C /* ImfPxr24Compressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfPxr24Compressor.cpp; path = OpenEXR/IlmImf/ImfPxr24Compressor.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D8C1E3112C100D1BF2C /* ImfPxr24Compressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfPxr24Compressor.h; path = OpenEXR/IlmImf/ImfPxr24Compressor.h; sourceTree = SOURCE_ROOT; };
+		E4788D8D1E3112C100D1BF2C /* ImfRational.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfRational.cpp; path = OpenEXR/IlmImf/ImfRational.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D8E1E3112C100D1BF2C /* ImfRational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfRational.h; path = OpenEXR/IlmImf/ImfRational.h; sourceTree = SOURCE_ROOT; };
+		E4788D8F1E3112C100D1BF2C /* ImfRationalAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfRationalAttribute.cpp; path = OpenEXR/IlmImf/ImfRationalAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D901E3112C100D1BF2C /* ImfRationalAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfRationalAttribute.h; path = OpenEXR/IlmImf/ImfRationalAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788D911E3112C100D1BF2C /* ImfRgba.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfRgba.h; path = OpenEXR/IlmImf/ImfRgba.h; sourceTree = SOURCE_ROOT; };
+		E4788D921E3112C100D1BF2C /* ImfRgbaFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfRgbaFile.cpp; path = OpenEXR/IlmImf/ImfRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D931E3112C100D1BF2C /* ImfRgbaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfRgbaFile.h; path = OpenEXR/IlmImf/ImfRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D941E3112C100D1BF2C /* ImfRgbaYca.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfRgbaYca.cpp; path = OpenEXR/IlmImf/ImfRgbaYca.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D951E3112C100D1BF2C /* ImfRgbaYca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfRgbaYca.h; path = OpenEXR/IlmImf/ImfRgbaYca.h; sourceTree = SOURCE_ROOT; };
+		E4788D961E3112C100D1BF2C /* ImfRle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfRle.cpp; path = OpenEXR/IlmImf/ImfRle.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D971E3112C100D1BF2C /* ImfRle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfRle.h; path = OpenEXR/IlmImf/ImfRle.h; sourceTree = SOURCE_ROOT; };
+		E4788D981E3112C100D1BF2C /* ImfRleCompressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfRleCompressor.cpp; path = OpenEXR/IlmImf/ImfRleCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D991E3112C100D1BF2C /* ImfRleCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfRleCompressor.h; path = OpenEXR/IlmImf/ImfRleCompressor.h; sourceTree = SOURCE_ROOT; };
+		E4788D9A1E3112C100D1BF2C /* ImfScanLineInputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfScanLineInputFile.cpp; path = OpenEXR/IlmImf/ImfScanLineInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D9B1E3112C100D1BF2C /* ImfScanLineInputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfScanLineInputFile.h; path = OpenEXR/IlmImf/ImfScanLineInputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788D9C1E3112C100D1BF2C /* ImfSimd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfSimd.h; path = OpenEXR/IlmImf/ImfSimd.h; sourceTree = SOURCE_ROOT; };
+		E4788D9D1E3112C100D1BF2C /* ImfStandardAttributes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfStandardAttributes.cpp; path = OpenEXR/IlmImf/ImfStandardAttributes.cpp; sourceTree = SOURCE_ROOT; };
+		E4788D9E1E3112C100D1BF2C /* ImfStandardAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfStandardAttributes.h; path = OpenEXR/IlmImf/ImfStandardAttributes.h; sourceTree = SOURCE_ROOT; };
+		E4788D9F1E3112C100D1BF2C /* ImfStdIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfStdIO.cpp; path = OpenEXR/IlmImf/ImfStdIO.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DA01E3112C100D1BF2C /* ImfStdIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfStdIO.h; path = OpenEXR/IlmImf/ImfStdIO.h; sourceTree = SOURCE_ROOT; };
+		E4788DA11E3112C100D1BF2C /* ImfStringAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfStringAttribute.cpp; path = OpenEXR/IlmImf/ImfStringAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DA21E3112C100D1BF2C /* ImfStringAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfStringAttribute.h; path = OpenEXR/IlmImf/ImfStringAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788DA31E3112C100D1BF2C /* ImfStringVectorAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfStringVectorAttribute.cpp; path = OpenEXR/IlmImf/ImfStringVectorAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DA41E3112C100D1BF2C /* ImfStringVectorAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfStringVectorAttribute.h; path = OpenEXR/IlmImf/ImfStringVectorAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788DA51E3112C100D1BF2C /* ImfSystemSpecific.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfSystemSpecific.cpp; path = OpenEXR/IlmImf/ImfSystemSpecific.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DA61E3112C100D1BF2C /* ImfSystemSpecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfSystemSpecific.h; path = OpenEXR/IlmImf/ImfSystemSpecific.h; sourceTree = SOURCE_ROOT; };
+		E4788DA71E3112C100D1BF2C /* ImfTestFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfTestFile.cpp; path = OpenEXR/IlmImf/ImfTestFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DA81E3112C100D1BF2C /* ImfTestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTestFile.h; path = OpenEXR/IlmImf/ImfTestFile.h; sourceTree = SOURCE_ROOT; };
+		E4788DA91E3112C100D1BF2C /* ImfThreading.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfThreading.cpp; path = OpenEXR/IlmImf/ImfThreading.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DAA1E3112C100D1BF2C /* ImfThreading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfThreading.h; path = OpenEXR/IlmImf/ImfThreading.h; sourceTree = SOURCE_ROOT; };
+		E4788DAB1E3112C100D1BF2C /* ImfTileDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTileDescription.h; path = OpenEXR/IlmImf/ImfTileDescription.h; sourceTree = SOURCE_ROOT; };
+		E4788DAC1E3112C100D1BF2C /* ImfTileDescriptionAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfTileDescriptionAttribute.cpp; path = OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DAD1E3112C100D1BF2C /* ImfTileDescriptionAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTileDescriptionAttribute.h; path = OpenEXR/IlmImf/ImfTileDescriptionAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788DAE1E3112C100D1BF2C /* ImfTiledInputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfTiledInputFile.cpp; path = OpenEXR/IlmImf/ImfTiledInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DAF1E3112C100D1BF2C /* ImfTiledInputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTiledInputFile.h; path = OpenEXR/IlmImf/ImfTiledInputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788DB01E3112C100D1BF2C /* ImfTiledInputPart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfTiledInputPart.cpp; path = OpenEXR/IlmImf/ImfTiledInputPart.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DB11E3112C100D1BF2C /* ImfTiledInputPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTiledInputPart.h; path = OpenEXR/IlmImf/ImfTiledInputPart.h; sourceTree = SOURCE_ROOT; };
+		E4788DB21E3112C100D1BF2C /* ImfTiledMisc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfTiledMisc.cpp; path = OpenEXR/IlmImf/ImfTiledMisc.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DB31E3112C100D1BF2C /* ImfTiledMisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTiledMisc.h; path = OpenEXR/IlmImf/ImfTiledMisc.h; sourceTree = SOURCE_ROOT; };
+		E4788DB41E3112C100D1BF2C /* ImfTiledOutputFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfTiledOutputFile.cpp; path = OpenEXR/IlmImf/ImfTiledOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DB51E3112C100D1BF2C /* ImfTiledOutputFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTiledOutputFile.h; path = OpenEXR/IlmImf/ImfTiledOutputFile.h; sourceTree = SOURCE_ROOT; };
+		E4788DB61E3112C100D1BF2C /* ImfTiledOutputPart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfTiledOutputPart.cpp; path = OpenEXR/IlmImf/ImfTiledOutputPart.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DB71E3112C100D1BF2C /* ImfTiledOutputPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTiledOutputPart.h; path = OpenEXR/IlmImf/ImfTiledOutputPart.h; sourceTree = SOURCE_ROOT; };
+		E4788DB81E3112C100D1BF2C /* ImfTiledRgbaFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfTiledRgbaFile.cpp; path = OpenEXR/IlmImf/ImfTiledRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DB91E3112C100D1BF2C /* ImfTiledRgbaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTiledRgbaFile.h; path = OpenEXR/IlmImf/ImfTiledRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		E4788DBA1E3112C100D1BF2C /* ImfTileOffsets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfTileOffsets.cpp; path = OpenEXR/IlmImf/ImfTileOffsets.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DBB1E3112C100D1BF2C /* ImfTileOffsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTileOffsets.h; path = OpenEXR/IlmImf/ImfTileOffsets.h; sourceTree = SOURCE_ROOT; };
+		E4788DBC1E3112C100D1BF2C /* ImfTimeCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfTimeCode.cpp; path = OpenEXR/IlmImf/ImfTimeCode.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DBD1E3112C100D1BF2C /* ImfTimeCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTimeCode.h; path = OpenEXR/IlmImf/ImfTimeCode.h; sourceTree = SOURCE_ROOT; };
+		E4788DBE1E3112C100D1BF2C /* ImfTimeCodeAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfTimeCodeAttribute.cpp; path = OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DBF1E3112C100D1BF2C /* ImfTimeCodeAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfTimeCodeAttribute.h; path = OpenEXR/IlmImf/ImfTimeCodeAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788DC01E3112C100D1BF2C /* ImfVecAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfVecAttribute.cpp; path = OpenEXR/IlmImf/ImfVecAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DC11E3112C100D1BF2C /* ImfVecAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfVecAttribute.h; path = OpenEXR/IlmImf/ImfVecAttribute.h; sourceTree = SOURCE_ROOT; };
+		E4788DC21E3112C100D1BF2C /* ImfVersion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfVersion.cpp; path = OpenEXR/IlmImf/ImfVersion.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DC31E3112C100D1BF2C /* ImfVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfVersion.h; path = OpenEXR/IlmImf/ImfVersion.h; sourceTree = SOURCE_ROOT; };
+		E4788DC41E3112C100D1BF2C /* ImfWav.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfWav.cpp; path = OpenEXR/IlmImf/ImfWav.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DC51E3112C100D1BF2C /* ImfWav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfWav.h; path = OpenEXR/IlmImf/ImfWav.h; sourceTree = SOURCE_ROOT; };
+		E4788DC61E3112C100D1BF2C /* ImfXdr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfXdr.h; path = OpenEXR/IlmImf/ImfXdr.h; sourceTree = SOURCE_ROOT; };
+		E4788DC71E3112C100D1BF2C /* ImfZip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfZip.cpp; path = OpenEXR/IlmImf/ImfZip.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DC81E3112C100D1BF2C /* ImfZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfZip.h; path = OpenEXR/IlmImf/ImfZip.h; sourceTree = SOURCE_ROOT; };
+		E4788DC91E3112C100D1BF2C /* ImfZipCompressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfZipCompressor.cpp; path = OpenEXR/IlmImf/ImfZipCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		E4788DCA1E3112C100D1BF2C /* ImfZipCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfZipCompressor.h; path = OpenEXR/IlmImf/ImfZipCompressor.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4788C781E310FDC00D1BF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4788C721E310FDC00D1BF2C = {
+			isa = PBXGroup;
+			children = (
+				E4788C7D1E310FDC00D1BF2C /* OpenEXRLib */,
+				E4788C7C1E310FDC00D1BF2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4788C7C1E310FDC00D1BF2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4788C7B1E310FDC00D1BF2C /* libOpenEXRLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4788C7D1E310FDC00D1BF2C /* OpenEXRLib */ = {
+			isa = PBXGroup;
+			children = (
+				E4788C891E31104300D1BF2C /* Build Phases */,
+				E4788C881E31103900D1BF2C /* IlmBase */,
+				E4788C871E31103000D1BF2C /* OpenEXR */,
+			);
+			path = OpenEXRLib;
+			sourceTree = "<group>";
+		};
+		E4788C871E31103000D1BF2C /* OpenEXR */ = {
+			isa = PBXGroup;
+			children = (
+				E4788D031E3112A700D1BF2C /* IlmImf */,
+			);
+			name = OpenEXR;
+			sourceTree = "<group>";
+		};
+		E4788C881E31103900D1BF2C /* IlmBase */ = {
+			isa = PBXGroup;
+			children = (
+				E4788C8F1E3110B600D1BF2C /* Half */,
+				E4788C8E1E3110B000D1BF2C /* Iex */,
+				E4788C8D1E3110A700D1BF2C /* IlmThread */,
+				E4788C8C1E3110A000D1BF2C /* Imath */,
+			);
+			name = IlmBase;
+			sourceTree = "<group>";
+		};
+		E4788C891E31104300D1BF2C /* Build Phases */ = {
+			isa = PBXGroup;
+			children = (
+				E4788CA81E31122E00D1BF2C /* AutoGenerateHeaderFiles.sh */,
+				E4788CA91E31122E00D1BF2C /* BuildUniversalLibrary.sh */,
+			);
+			name = "Build Phases";
+			sourceTree = "<group>";
+		};
+		E4788C8C1E3110A000D1BF2C /* Imath */ = {
+			isa = PBXGroup;
+			children = (
+				E4788CD41E31129E00D1BF2C /* ImathBox.cpp */,
+				E4788CD51E31129E00D1BF2C /* ImathBox.h */,
+				E4788CD61E31129E00D1BF2C /* ImathBoxAlgo.h */,
+				E4788CD71E31129E00D1BF2C /* ImathColor.h */,
+				E4788CD81E31129E00D1BF2C /* ImathColorAlgo.cpp */,
+				E4788CD91E31129E00D1BF2C /* ImathColorAlgo.h */,
+				E4788CDA1E31129E00D1BF2C /* ImathEuler.h */,
+				E4788CDB1E31129E00D1BF2C /* ImathExc.h */,
+				E4788CDC1E31129E00D1BF2C /* ImathExport.h */,
+				E4788CDD1E31129E00D1BF2C /* ImathForward.h */,
+				E4788CDE1E31129E00D1BF2C /* ImathFrame.h */,
+				E4788CDF1E31129E00D1BF2C /* ImathFrustum.h */,
+				E4788CE01E31129E00D1BF2C /* ImathFrustumTest.h */,
+				E4788CE11E31129E00D1BF2C /* ImathFun.cpp */,
+				E4788CE21E31129E00D1BF2C /* ImathFun.h */,
+				E4788CE31E31129E00D1BF2C /* ImathGL.h */,
+				E4788CE41E31129E00D1BF2C /* ImathGLU.h */,
+				E4788CE51E31129E00D1BF2C /* ImathHalfLimits.h */,
+				E4788CE61E31129E00D1BF2C /* ImathInt64.h */,
+				E4788CE71E31129E00D1BF2C /* ImathInterval.h */,
+				E4788CE81E31129E00D1BF2C /* ImathLimits.h */,
+				E4788CE91E31129E00D1BF2C /* ImathLine.h */,
+				E4788CEA1E31129E00D1BF2C /* ImathLineAlgo.h */,
+				E4788CEB1E31129E00D1BF2C /* ImathMath.h */,
+				E4788CEC1E31129E00D1BF2C /* ImathMatrix.h */,
+				E4788CED1E31129E00D1BF2C /* ImathMatrixAlgo.cpp */,
+				E4788CEE1E31129E00D1BF2C /* ImathMatrixAlgo.h */,
+				E4788CEF1E31129E00D1BF2C /* ImathNamespace.h */,
+				E4788CF01E31129E00D1BF2C /* ImathPlane.h */,
+				E4788CF11E31129E00D1BF2C /* ImathPlatform.h */,
+				E4788CF21E31129E00D1BF2C /* ImathQuat.h */,
+				E4788CF31E31129E00D1BF2C /* ImathRandom.cpp */,
+				E4788CF41E31129E00D1BF2C /* ImathRandom.h */,
+				E4788CF51E31129E00D1BF2C /* ImathRoots.h */,
+				E4788CF61E31129E00D1BF2C /* ImathShear.cpp */,
+				E4788CF71E31129E00D1BF2C /* ImathShear.h */,
+				E4788CF81E31129E00D1BF2C /* ImathSphere.h */,
+				E4788CF91E31129E00D1BF2C /* ImathVec.cpp */,
+				E4788CFA1E31129E00D1BF2C /* ImathVec.h */,
+				E4788CFB1E31129E00D1BF2C /* ImathVecAlgo.h */,
+			);
+			name = Imath;
+			sourceTree = "<group>";
+		};
+		E4788C8D1E3110A700D1BF2C /* IlmThread */ = {
+			isa = PBXGroup;
+			children = (
+				E4788CBD1E31128600D1BF2C /* IlmThread.cpp */,
+				E4788CBE1E31128600D1BF2C /* IlmThread.h */,
+				E4788CBF1E31128600D1BF2C /* IlmThreadExport.h */,
+				E4788CC01E31128600D1BF2C /* IlmThreadForward.h */,
+				E4788CC11E31128600D1BF2C /* IlmThreadMutex.cpp */,
+				E4788CC21E31128600D1BF2C /* IlmThreadMutex.h */,
+				E4788CC31E31128600D1BF2C /* IlmThreadMutexPosix.cpp */,
+				E4788CC41E31128600D1BF2C /* IlmThreadNamespace.h */,
+				E4788CC51E31128600D1BF2C /* IlmThreadPool.cpp */,
+				E4788CC61E31128600D1BF2C /* IlmThreadPool.h */,
+				E4788CC71E31128600D1BF2C /* IlmThreadPosix.cpp */,
+				E4788CC81E31128600D1BF2C /* IlmThreadSemaphore.cpp */,
+				E4788CC91E31128600D1BF2C /* IlmThreadSemaphore.h */,
+				E4788CCA1E31128600D1BF2C /* IlmThreadSemaphorePosix.cpp */,
+				E4788CCB1E31128600D1BF2C /* IlmThreadSemaphorePosixCompat.cpp */,
+			);
+			name = IlmThread;
+			sourceTree = "<group>";
+		};
+		E4788C8E1E3110B000D1BF2C /* Iex */ = {
+			isa = PBXGroup;
+			children = (
+				E4788CB01E31125800D1BF2C /* Iex.h */,
+				E4788CB11E31125800D1BF2C /* IexBaseExc.cpp */,
+				E4788CB21E31125800D1BF2C /* IexBaseExc.h */,
+				E4788CB31E31125800D1BF2C /* IexErrnoExc.h */,
+				E4788CB41E31125800D1BF2C /* IexExport.h */,
+				E4788CB51E31125800D1BF2C /* IexForward.h */,
+				E4788CB61E31125800D1BF2C /* IexMacros.h */,
+				E4788CB71E31125800D1BF2C /* IexMathExc.h */,
+				E4788CB81E31125800D1BF2C /* IexNamespace.h */,
+				E4788CB91E31125800D1BF2C /* IexThrowErrnoExc.cpp */,
+				E4788CBA1E31125800D1BF2C /* IexThrowErrnoExc.h */,
+			);
+			name = Iex;
+			sourceTree = "<group>";
+		};
+		E4788C8F1E3110B600D1BF2C /* Half */ = {
+			isa = PBXGroup;
+			children = (
+				E4788CAA1E31124600D1BF2C /* half.cpp */,
+				E4788CAB1E31124600D1BF2C /* half.h */,
+				E4788CAC1E31124600D1BF2C /* halfExport.h */,
+				E4788CAD1E31124600D1BF2C /* halfFunction.h */,
+				E4788CAE1E31124600D1BF2C /* halfLimits.h */,
+			);
+			name = Half;
+			sourceTree = "<group>";
+		};
+		E4788D031E3112A700D1BF2C /* IlmImf */ = {
+			isa = PBXGroup;
+			children = (
+				E4788D041E3112C100D1BF2C /* ImfAcesFile.cpp */,
+				E4788D051E3112C100D1BF2C /* ImfAcesFile.h */,
+				E4788D061E3112C100D1BF2C /* ImfArray.h */,
+				E4788D071E3112C100D1BF2C /* ImfAttribute.cpp */,
+				E4788D081E3112C100D1BF2C /* ImfAttribute.h */,
+				E4788D091E3112C100D1BF2C /* ImfAutoArray.h */,
+				E4788D0A1E3112C100D1BF2C /* ImfB44Compressor.cpp */,
+				E4788D0B1E3112C100D1BF2C /* ImfB44Compressor.h */,
+				E4788D0C1E3112C100D1BF2C /* ImfBoxAttribute.cpp */,
+				E4788D0D1E3112C100D1BF2C /* ImfBoxAttribute.h */,
+				E4788D0E1E3112C100D1BF2C /* ImfChannelList.cpp */,
+				E4788D0F1E3112C100D1BF2C /* ImfChannelList.h */,
+				E4788D101E3112C100D1BF2C /* ImfChannelListAttribute.cpp */,
+				E4788D111E3112C100D1BF2C /* ImfChannelListAttribute.h */,
+				E4788D121E3112C100D1BF2C /* ImfCheckedArithmetic.h */,
+				E4788D131E3112C100D1BF2C /* ImfChromaticities.cpp */,
+				E4788D141E3112C100D1BF2C /* ImfChromaticities.h */,
+				E4788D151E3112C100D1BF2C /* ImfChromaticitiesAttribute.cpp */,
+				E4788D161E3112C100D1BF2C /* ImfChromaticitiesAttribute.h */,
+				E4788D171E3112C100D1BF2C /* ImfCompositeDeepScanLine.cpp */,
+				E4788D181E3112C100D1BF2C /* ImfCompositeDeepScanLine.h */,
+				E4788D191E3112C100D1BF2C /* ImfCompression.h */,
+				E4788D1A1E3112C100D1BF2C /* ImfCompressionAttribute.cpp */,
+				E4788D1B1E3112C100D1BF2C /* ImfCompressionAttribute.h */,
+				E4788D1C1E3112C100D1BF2C /* ImfCompressor.cpp */,
+				E4788D1D1E3112C100D1BF2C /* ImfCompressor.h */,
+				E4788D1E1E3112C100D1BF2C /* ImfConvert.cpp */,
+				E4788D1F1E3112C100D1BF2C /* ImfConvert.h */,
+				E4788D201E3112C100D1BF2C /* ImfCRgbaFile.cpp */,
+				E4788D211E3112C100D1BF2C /* ImfCRgbaFile.h */,
+				E4788D221E3112C100D1BF2C /* ImfDeepCompositing.cpp */,
+				E4788D231E3112C100D1BF2C /* ImfDeepCompositing.h */,
+				E4788D241E3112C100D1BF2C /* ImfDeepFrameBuffer.cpp */,
+				E4788D251E3112C100D1BF2C /* ImfDeepFrameBuffer.h */,
+				E4788D261E3112C100D1BF2C /* ImfDeepImageState.h */,
+				E4788D271E3112C100D1BF2C /* ImfDeepImageStateAttribute.cpp */,
+				E4788D281E3112C100D1BF2C /* ImfDeepImageStateAttribute.h */,
+				E4788D291E3112C100D1BF2C /* ImfDeepScanLineInputFile.cpp */,
+				E4788D2A1E3112C100D1BF2C /* ImfDeepScanLineInputFile.h */,
+				E4788D2B1E3112C100D1BF2C /* ImfDeepScanLineInputPart.cpp */,
+				E4788D2C1E3112C100D1BF2C /* ImfDeepScanLineInputPart.h */,
+				E4788D2D1E3112C100D1BF2C /* ImfDeepScanLineOutputFile.cpp */,
+				E4788D2E1E3112C100D1BF2C /* ImfDeepScanLineOutputFile.h */,
+				E4788D2F1E3112C100D1BF2C /* ImfDeepScanLineOutputPart.cpp */,
+				E4788D301E3112C100D1BF2C /* ImfDeepScanLineOutputPart.h */,
+				E4788D311E3112C100D1BF2C /* ImfDeepTiledInputFile.cpp */,
+				E4788D321E3112C100D1BF2C /* ImfDeepTiledInputFile.h */,
+				E4788D331E3112C100D1BF2C /* ImfDeepTiledInputPart.cpp */,
+				E4788D341E3112C100D1BF2C /* ImfDeepTiledInputPart.h */,
+				E4788D351E3112C100D1BF2C /* ImfDeepTiledOutputFile.cpp */,
+				E4788D361E3112C100D1BF2C /* ImfDeepTiledOutputFile.h */,
+				E4788D371E3112C100D1BF2C /* ImfDeepTiledOutputPart.cpp */,
+				E4788D381E3112C100D1BF2C /* ImfDeepTiledOutputPart.h */,
+				E4788D391E3112C100D1BF2C /* ImfDoubleAttribute.cpp */,
+				E4788D3A1E3112C100D1BF2C /* ImfDoubleAttribute.h */,
+				E4788D3B1E3112C100D1BF2C /* ImfDwaCompressor.cpp */,
+				E4788D3C1E3112C100D1BF2C /* ImfDwaCompressor.h */,
+				E4788D3D1E3112C100D1BF2C /* ImfDwaCompressorSimd.h */,
+				E4788D3E1E3112C100D1BF2C /* ImfEnvmap.cpp */,
+				E4788D3F1E3112C100D1BF2C /* ImfEnvmap.h */,
+				E4788D401E3112C100D1BF2C /* ImfEnvmapAttribute.cpp */,
+				E4788D411E3112C100D1BF2C /* ImfEnvmapAttribute.h */,
+				E4788D421E3112C100D1BF2C /* ImfExport.h */,
+				E4788D431E3112C100D1BF2C /* ImfFastHuf.cpp */,
+				E4788D441E3112C100D1BF2C /* ImfFastHuf.h */,
+				E4788D451E3112C100D1BF2C /* ImfFloatAttribute.cpp */,
+				E4788D461E3112C100D1BF2C /* ImfFloatAttribute.h */,
+				E4788D471E3112C100D1BF2C /* ImfFloatVectorAttribute.cpp */,
+				E4788D481E3112C100D1BF2C /* ImfFloatVectorAttribute.h */,
+				E4788D491E3112C100D1BF2C /* ImfForward.h */,
+				E4788D4A1E3112C100D1BF2C /* ImfFrameBuffer.cpp */,
+				E4788D4B1E3112C100D1BF2C /* ImfFrameBuffer.h */,
+				E4788D4C1E3112C100D1BF2C /* ImfFramesPerSecond.cpp */,
+				E4788D4D1E3112C100D1BF2C /* ImfFramesPerSecond.h */,
+				E4788D4E1E3112C100D1BF2C /* ImfGenericInputFile.cpp */,
+				E4788D4F1E3112C100D1BF2C /* ImfGenericInputFile.h */,
+				E4788D501E3112C100D1BF2C /* ImfGenericOutputFile.cpp */,
+				E4788D511E3112C100D1BF2C /* ImfGenericOutputFile.h */,
+				E4788D521E3112C100D1BF2C /* ImfHeader.cpp */,
+				E4788D531E3112C100D1BF2C /* ImfHeader.h */,
+				E4788D541E3112C100D1BF2C /* ImfHuf.cpp */,
+				E4788D551E3112C100D1BF2C /* ImfHuf.h */,
+				E4788D561E3112C100D1BF2C /* ImfInputFile.cpp */,
+				E4788D571E3112C100D1BF2C /* ImfInputFile.h */,
+				E4788D581E3112C100D1BF2C /* ImfInputPart.cpp */,
+				E4788D591E3112C100D1BF2C /* ImfInputPart.h */,
+				E4788D5A1E3112C100D1BF2C /* ImfInputPartData.cpp */,
+				E4788D5B1E3112C100D1BF2C /* ImfInputPartData.h */,
+				E4788D5C1E3112C100D1BF2C /* ImfInputStreamMutex.h */,
+				E4788D5D1E3112C100D1BF2C /* ImfInt64.h */,
+				E4788D5E1E3112C100D1BF2C /* ImfIntAttribute.cpp */,
+				E4788D5F1E3112C100D1BF2C /* ImfIntAttribute.h */,
+				E4788D601E3112C100D1BF2C /* ImfIO.cpp */,
+				E4788D611E3112C100D1BF2C /* ImfIO.h */,
+				E4788D621E3112C100D1BF2C /* ImfKeyCode.cpp */,
+				E4788D631E3112C100D1BF2C /* ImfKeyCode.h */,
+				E4788D641E3112C100D1BF2C /* ImfKeyCodeAttribute.cpp */,
+				E4788D651E3112C100D1BF2C /* ImfKeyCodeAttribute.h */,
+				E4788D661E3112C100D1BF2C /* ImfLineOrder.h */,
+				E4788D671E3112C100D1BF2C /* ImfLineOrderAttribute.cpp */,
+				E4788D681E3112C100D1BF2C /* ImfLineOrderAttribute.h */,
+				E4788D691E3112C100D1BF2C /* ImfLut.cpp */,
+				E4788D6A1E3112C100D1BF2C /* ImfLut.h */,
+				E4788D6B1E3112C100D1BF2C /* ImfMatrixAttribute.cpp */,
+				E4788D6C1E3112C100D1BF2C /* ImfMatrixAttribute.h */,
+				E4788D6D1E3112C100D1BF2C /* ImfMisc.cpp */,
+				E4788D6E1E3112C100D1BF2C /* ImfMisc.h */,
+				E4788D6F1E3112C100D1BF2C /* ImfMultiPartInputFile.cpp */,
+				E4788D701E3112C100D1BF2C /* ImfMultiPartInputFile.h */,
+				E4788D711E3112C100D1BF2C /* ImfMultiPartOutputFile.cpp */,
+				E4788D721E3112C100D1BF2C /* ImfMultiPartOutputFile.h */,
+				E4788D731E3112C100D1BF2C /* ImfMultiView.cpp */,
+				E4788D741E3112C100D1BF2C /* ImfMultiView.h */,
+				E4788D751E3112C100D1BF2C /* ImfName.h */,
+				E4788D761E3112C100D1BF2C /* ImfNamespace.h */,
+				E4788D771E3112C100D1BF2C /* ImfOpaqueAttribute.cpp */,
+				E4788D781E3112C100D1BF2C /* ImfOpaqueAttribute.h */,
+				E4788D791E3112C100D1BF2C /* ImfOptimizedPixelReading.h */,
+				E4788D7A1E3112C100D1BF2C /* ImfOutputFile.cpp */,
+				E4788D7B1E3112C100D1BF2C /* ImfOutputFile.h */,
+				E4788D7C1E3112C100D1BF2C /* ImfOutputPart.cpp */,
+				E4788D7D1E3112C100D1BF2C /* ImfOutputPart.h */,
+				E4788D7E1E3112C100D1BF2C /* ImfOutputPartData.cpp */,
+				E4788D7F1E3112C100D1BF2C /* ImfOutputPartData.h */,
+				E4788D801E3112C100D1BF2C /* ImfOutputStreamMutex.h */,
+				E4788D811E3112C100D1BF2C /* ImfPartHelper.h */,
+				E4788D821E3112C100D1BF2C /* ImfPartType.cpp */,
+				E4788D831E3112C100D1BF2C /* ImfPartType.h */,
+				E4788D841E3112C100D1BF2C /* ImfPixelType.h */,
+				E4788D851E3112C100D1BF2C /* ImfPizCompressor.cpp */,
+				E4788D861E3112C100D1BF2C /* ImfPizCompressor.h */,
+				E4788D871E3112C100D1BF2C /* ImfPreviewImage.cpp */,
+				E4788D881E3112C100D1BF2C /* ImfPreviewImage.h */,
+				E4788D891E3112C100D1BF2C /* ImfPreviewImageAttribute.cpp */,
+				E4788D8A1E3112C100D1BF2C /* ImfPreviewImageAttribute.h */,
+				E4788D8B1E3112C100D1BF2C /* ImfPxr24Compressor.cpp */,
+				E4788D8C1E3112C100D1BF2C /* ImfPxr24Compressor.h */,
+				E4788D8D1E3112C100D1BF2C /* ImfRational.cpp */,
+				E4788D8E1E3112C100D1BF2C /* ImfRational.h */,
+				E4788D8F1E3112C100D1BF2C /* ImfRationalAttribute.cpp */,
+				E4788D901E3112C100D1BF2C /* ImfRationalAttribute.h */,
+				E4788D911E3112C100D1BF2C /* ImfRgba.h */,
+				E4788D921E3112C100D1BF2C /* ImfRgbaFile.cpp */,
+				E4788D931E3112C100D1BF2C /* ImfRgbaFile.h */,
+				E4788D941E3112C100D1BF2C /* ImfRgbaYca.cpp */,
+				E4788D951E3112C100D1BF2C /* ImfRgbaYca.h */,
+				E4788D961E3112C100D1BF2C /* ImfRle.cpp */,
+				E4788D971E3112C100D1BF2C /* ImfRle.h */,
+				E4788D981E3112C100D1BF2C /* ImfRleCompressor.cpp */,
+				E4788D991E3112C100D1BF2C /* ImfRleCompressor.h */,
+				E4788D9A1E3112C100D1BF2C /* ImfScanLineInputFile.cpp */,
+				E4788D9B1E3112C100D1BF2C /* ImfScanLineInputFile.h */,
+				E4788D9C1E3112C100D1BF2C /* ImfSimd.h */,
+				E4788D9D1E3112C100D1BF2C /* ImfStandardAttributes.cpp */,
+				E4788D9E1E3112C100D1BF2C /* ImfStandardAttributes.h */,
+				E4788D9F1E3112C100D1BF2C /* ImfStdIO.cpp */,
+				E4788DA01E3112C100D1BF2C /* ImfStdIO.h */,
+				E4788DA11E3112C100D1BF2C /* ImfStringAttribute.cpp */,
+				E4788DA21E3112C100D1BF2C /* ImfStringAttribute.h */,
+				E4788DA31E3112C100D1BF2C /* ImfStringVectorAttribute.cpp */,
+				E4788DA41E3112C100D1BF2C /* ImfStringVectorAttribute.h */,
+				E4788DA51E3112C100D1BF2C /* ImfSystemSpecific.cpp */,
+				E4788DA61E3112C100D1BF2C /* ImfSystemSpecific.h */,
+				E4788DA71E3112C100D1BF2C /* ImfTestFile.cpp */,
+				E4788DA81E3112C100D1BF2C /* ImfTestFile.h */,
+				E4788DA91E3112C100D1BF2C /* ImfThreading.cpp */,
+				E4788DAA1E3112C100D1BF2C /* ImfThreading.h */,
+				E4788DAB1E3112C100D1BF2C /* ImfTileDescription.h */,
+				E4788DAC1E3112C100D1BF2C /* ImfTileDescriptionAttribute.cpp */,
+				E4788DAD1E3112C100D1BF2C /* ImfTileDescriptionAttribute.h */,
+				E4788DAE1E3112C100D1BF2C /* ImfTiledInputFile.cpp */,
+				E4788DAF1E3112C100D1BF2C /* ImfTiledInputFile.h */,
+				E4788DB01E3112C100D1BF2C /* ImfTiledInputPart.cpp */,
+				E4788DB11E3112C100D1BF2C /* ImfTiledInputPart.h */,
+				E4788DB21E3112C100D1BF2C /* ImfTiledMisc.cpp */,
+				E4788DB31E3112C100D1BF2C /* ImfTiledMisc.h */,
+				E4788DB41E3112C100D1BF2C /* ImfTiledOutputFile.cpp */,
+				E4788DB51E3112C100D1BF2C /* ImfTiledOutputFile.h */,
+				E4788DB61E3112C100D1BF2C /* ImfTiledOutputPart.cpp */,
+				E4788DB71E3112C100D1BF2C /* ImfTiledOutputPart.h */,
+				E4788DB81E3112C100D1BF2C /* ImfTiledRgbaFile.cpp */,
+				E4788DB91E3112C100D1BF2C /* ImfTiledRgbaFile.h */,
+				E4788DBA1E3112C100D1BF2C /* ImfTileOffsets.cpp */,
+				E4788DBB1E3112C100D1BF2C /* ImfTileOffsets.h */,
+				E4788DBC1E3112C100D1BF2C /* ImfTimeCode.cpp */,
+				E4788DBD1E3112C100D1BF2C /* ImfTimeCode.h */,
+				E4788DBE1E3112C100D1BF2C /* ImfTimeCodeAttribute.cpp */,
+				E4788DBF1E3112C100D1BF2C /* ImfTimeCodeAttribute.h */,
+				E4788DC01E3112C100D1BF2C /* ImfVecAttribute.cpp */,
+				E4788DC11E3112C100D1BF2C /* ImfVecAttribute.h */,
+				E4788DC21E3112C100D1BF2C /* ImfVersion.cpp */,
+				E4788DC31E3112C100D1BF2C /* ImfVersion.h */,
+				E4788DC41E3112C100D1BF2C /* ImfWav.cpp */,
+				E4788DC51E3112C100D1BF2C /* ImfWav.h */,
+				E4788DC61E3112C100D1BF2C /* ImfXdr.h */,
+				E4788DC71E3112C100D1BF2C /* ImfZip.cpp */,
+				E4788DC81E3112C100D1BF2C /* ImfZip.h */,
+				E4788DC91E3112C100D1BF2C /* ImfZipCompressor.cpp */,
+				E4788DCA1E3112C100D1BF2C /* ImfZipCompressor.h */,
+			);
+			name = IlmImf;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4788C7A1E310FDC00D1BF2C /* OpenEXRLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4788C841E310FDC00D1BF2C /* Build configuration list for PBXNativeTarget "OpenEXRLib" */;
+			buildPhases = (
+				E4788E241E3113EF00D1BF2C /* ShellScript */,
+				E4788C771E310FDC00D1BF2C /* Sources */,
+				E4788C781E310FDC00D1BF2C /* Frameworks */,
+				E4788C791E310FDC00D1BF2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenEXRLib;
+			productName = OpenEXRLib;
+			productReference = E4788C7B1E310FDC00D1BF2C /* libOpenEXRLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4788C731E310FDC00D1BF2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Lightricks;
+				TargetAttributes = {
+					E4788C7A1E310FDC00D1BF2C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = KG6GWND6BG;
+						ProvisioningStyle = Automatic;
+					};
+					E4788EC81E3114DD00D1BF2C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = KG6GWND6BG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E4788C761E310FDC00D1BF2C /* Build configuration list for PBXProject "OpenEXRLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4788C721E310FDC00D1BF2C;
+			productRefGroup = E4788C7C1E310FDC00D1BF2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4788C7A1E310FDC00D1BF2C /* OpenEXRLib */,
+				E4788EC81E3114DD00D1BF2C /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4788E241E3113EF00D1BF2C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "chmod u+x \"$SOURCE_ROOT/AutoGenerateHeaderFiles.sh\"\n\"$SOURCE_ROOT/AutoGenerateHeaderFiles.sh\"";
+		};
+		E4788ECC1E3114E500D1BF2C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "chmod u+x \"$SOURCE_ROOT/BuildUniversalLibrary.sh\"\n\"$SOURCE_ROOT/BuildUniversalLibrary.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4788C771E310FDC00D1BF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4788DD51E3112C100D1BF2C /* ImfCompressor.cpp in Sources */,
+				E4788E121E3112C100D1BF2C /* ImfSystemSpecific.cpp in Sources */,
+				E4788E031E3112C100D1BF2C /* ImfPizCompressor.cpp in Sources */,
+				E4788E0E1E3112C100D1BF2C /* ImfStandardAttributes.cpp in Sources */,
+				E4788E221E3112C100D1BF2C /* ImfZip.cpp in Sources */,
+				E4788DF91E3112C100D1BF2C /* ImfMatrixAttribute.cpp in Sources */,
+				E4788E081E3112C100D1BF2C /* ImfRationalAttribute.cpp in Sources */,
+				E4788E161E3112C100D1BF2C /* ImfTiledInputFile.cpp in Sources */,
+				E4788DF11E3112C100D1BF2C /* ImfInputPart.cpp in Sources */,
+				E4788DED1E3112C100D1BF2C /* ImfGenericOutputFile.cpp in Sources */,
+				E4788E041E3112C100D1BF2C /* ImfPreviewImage.cpp in Sources */,
+				E4788E191E3112C100D1BF2C /* ImfTiledOutputFile.cpp in Sources */,
+				E4788E1C1E3112C100D1BF2C /* ImfTileOffsets.cpp in Sources */,
+				E4788CD01E31128600D1BF2C /* IlmThreadPosix.cpp in Sources */,
+				E4788DCC1E3112C100D1BF2C /* ImfAttribute.cpp in Sources */,
+				E4788E051E3112C100D1BF2C /* ImfPreviewImageAttribute.cpp in Sources */,
+				E4788CCC1E31128600D1BF2C /* IlmThread.cpp in Sources */,
+				E4788E071E3112C100D1BF2C /* ImfRational.cpp in Sources */,
+				E4788DD61E3112C100D1BF2C /* ImfConvert.cpp in Sources */,
+				E4788DDA1E3112C100D1BF2C /* ImfDeepImageStateAttribute.cpp in Sources */,
+				E4788CBB1E31125800D1BF2C /* IexBaseExc.cpp in Sources */,
+				E4788DFC1E3112C100D1BF2C /* ImfMultiPartOutputFile.cpp in Sources */,
+				E4788DD91E3112C100D1BF2C /* ImfDeepFrameBuffer.cpp in Sources */,
+				E4788E1A1E3112C100D1BF2C /* ImfTiledOutputPart.cpp in Sources */,
+				E4788DD11E3112C100D1BF2C /* ImfChromaticities.cpp in Sources */,
+				E4788DD71E3112C100D1BF2C /* ImfCRgbaFile.cpp in Sources */,
+				E4788E001E3112C100D1BF2C /* ImfOutputPart.cpp in Sources */,
+				E4788DF81E3112C100D1BF2C /* ImfLut.cpp in Sources */,
+				E4788DE41E3112C100D1BF2C /* ImfDwaCompressor.cpp in Sources */,
+				E4788DDF1E3112C100D1BF2C /* ImfDeepTiledInputFile.cpp in Sources */,
+				E4788DFD1E3112C100D1BF2C /* ImfMultiView.cpp in Sources */,
+				E4788E181E3112C100D1BF2C /* ImfTiledMisc.cpp in Sources */,
+				E4788DF01E3112C100D1BF2C /* ImfInputFile.cpp in Sources */,
+				E4788CD21E31128600D1BF2C /* IlmThreadSemaphorePosix.cpp in Sources */,
+				E4788DDC1E3112C100D1BF2C /* ImfDeepScanLineInputPart.cpp in Sources */,
+				E4788DD41E3112C100D1BF2C /* ImfCompressionAttribute.cpp in Sources */,
+				E4788DF41E3112C100D1BF2C /* ImfIO.cpp in Sources */,
+				E4788E141E3112C100D1BF2C /* ImfThreading.cpp in Sources */,
+				E4788E131E3112C100D1BF2C /* ImfTestFile.cpp in Sources */,
+				E4788E101E3112C100D1BF2C /* ImfStringAttribute.cpp in Sources */,
+				E4788E0B1E3112C100D1BF2C /* ImfRle.cpp in Sources */,
+				E4788E011E3112C100D1BF2C /* ImfOutputPartData.cpp in Sources */,
+				E4788D001E31129E00D1BF2C /* ImathRandom.cpp in Sources */,
+				E4788DE61E3112C100D1BF2C /* ImfEnvmapAttribute.cpp in Sources */,
+				E4788DEC1E3112C100D1BF2C /* ImfGenericInputFile.cpp in Sources */,
+				E4788DE71E3112C100D1BF2C /* ImfFastHuf.cpp in Sources */,
+				E4788E0A1E3112C100D1BF2C /* ImfRgbaYca.cpp in Sources */,
+				E4788E1D1E3112C100D1BF2C /* ImfTimeCode.cpp in Sources */,
+				E4788CCF1E31128600D1BF2C /* IlmThreadPool.cpp in Sources */,
+				E4788E0C1E3112C100D1BF2C /* ImfRleCompressor.cpp in Sources */,
+				E4788DCE1E3112C100D1BF2C /* ImfBoxAttribute.cpp in Sources */,
+				E4788DDD1E3112C100D1BF2C /* ImfDeepScanLineOutputFile.cpp in Sources */,
+				E4788DD81E3112C100D1BF2C /* ImfDeepCompositing.cpp in Sources */,
+				E4788DD31E3112C100D1BF2C /* ImfCompositeDeepScanLine.cpp in Sources */,
+				E4788DD21E3112C100D1BF2C /* ImfChromaticitiesAttribute.cpp in Sources */,
+				E4788DEA1E3112C100D1BF2C /* ImfFrameBuffer.cpp in Sources */,
+				E4788DFF1E3112C100D1BF2C /* ImfOutputFile.cpp in Sources */,
+				E4788DCF1E3112C100D1BF2C /* ImfChannelList.cpp in Sources */,
+				E4788E1E1E3112C100D1BF2C /* ImfTimeCodeAttribute.cpp in Sources */,
+				E4788E1F1E3112C100D1BF2C /* ImfVecAttribute.cpp in Sources */,
+				E4788DDE1E3112C100D1BF2C /* ImfDeepScanLineOutputPart.cpp in Sources */,
+				E4788E211E3112C100D1BF2C /* ImfWav.cpp in Sources */,
+				E4788E021E3112C100D1BF2C /* ImfPartType.cpp in Sources */,
+				E4788E111E3112C100D1BF2C /* ImfStringVectorAttribute.cpp in Sources */,
+				E4788D021E31129E00D1BF2C /* ImathVec.cpp in Sources */,
+				E4788DF21E3112C100D1BF2C /* ImfInputPartData.cpp in Sources */,
+				E4788DF61E3112C100D1BF2C /* ImfKeyCodeAttribute.cpp in Sources */,
+				E4788D011E31129E00D1BF2C /* ImathShear.cpp in Sources */,
+				E4788DE11E3112C100D1BF2C /* ImfDeepTiledOutputFile.cpp in Sources */,
+				E4788CCE1E31128600D1BF2C /* IlmThreadMutexPosix.cpp in Sources */,
+				E4788CBC1E31125800D1BF2C /* IexThrowErrnoExc.cpp in Sources */,
+				E4788CD11E31128600D1BF2C /* IlmThreadSemaphore.cpp in Sources */,
+				E4788DF51E3112C100D1BF2C /* ImfKeyCode.cpp in Sources */,
+				E4788E061E3112C100D1BF2C /* ImfPxr24Compressor.cpp in Sources */,
+				E4788CAF1E31124600D1BF2C /* half.cpp in Sources */,
+				E4788E201E3112C100D1BF2C /* ImfVersion.cpp in Sources */,
+				E4788CFD1E31129E00D1BF2C /* ImathColorAlgo.cpp in Sources */,
+				E4788DF71E3112C100D1BF2C /* ImfLineOrderAttribute.cpp in Sources */,
+				E4788DFE1E3112C100D1BF2C /* ImfOpaqueAttribute.cpp in Sources */,
+				E4788E151E3112C100D1BF2C /* ImfTileDescriptionAttribute.cpp in Sources */,
+				E4788DDB1E3112C100D1BF2C /* ImfDeepScanLineInputFile.cpp in Sources */,
+				E4788CFC1E31129E00D1BF2C /* ImathBox.cpp in Sources */,
+				E4788DFA1E3112C100D1BF2C /* ImfMisc.cpp in Sources */,
+				E4788DD01E3112C100D1BF2C /* ImfChannelListAttribute.cpp in Sources */,
+				E4788CFE1E31129E00D1BF2C /* ImathFun.cpp in Sources */,
+				E4788DEE1E3112C100D1BF2C /* ImfHeader.cpp in Sources */,
+				E4788E091E3112C100D1BF2C /* ImfRgbaFile.cpp in Sources */,
+				E4788DE21E3112C100D1BF2C /* ImfDeepTiledOutputPart.cpp in Sources */,
+				E4788DE91E3112C100D1BF2C /* ImfFloatVectorAttribute.cpp in Sources */,
+				E4788DCD1E3112C100D1BF2C /* ImfB44Compressor.cpp in Sources */,
+				E4788DF31E3112C100D1BF2C /* ImfIntAttribute.cpp in Sources */,
+				E4788DEF1E3112C100D1BF2C /* ImfHuf.cpp in Sources */,
+				E4788DE51E3112C100D1BF2C /* ImfEnvmap.cpp in Sources */,
+				E4788E171E3112C100D1BF2C /* ImfTiledInputPart.cpp in Sources */,
+				E4788E1B1E3112C100D1BF2C /* ImfTiledRgbaFile.cpp in Sources */,
+				E4788DCB1E3112C100D1BF2C /* ImfAcesFile.cpp in Sources */,
+				E4788E0F1E3112C100D1BF2C /* ImfStdIO.cpp in Sources */,
+				E4788CFF1E31129E00D1BF2C /* ImathMatrixAlgo.cpp in Sources */,
+				E4788DE01E3112C100D1BF2C /* ImfDeepTiledInputPart.cpp in Sources */,
+				E4788DE81E3112C100D1BF2C /* ImfFloatAttribute.cpp in Sources */,
+				E4788E231E3112C100D1BF2C /* ImfZipCompressor.cpp in Sources */,
+				E4788CD31E31128600D1BF2C /* IlmThreadSemaphorePosixCompat.cpp in Sources */,
+				E4788E0D1E3112C100D1BF2C /* ImfScanLineInputFile.cpp in Sources */,
+				E4788DEB1E3112C100D1BF2C /* ImfFramesPerSecond.cpp in Sources */,
+				E4788CCD1E31128600D1BF2C /* IlmThreadMutex.cpp in Sources */,
+				E4788DFB1E3112C100D1BF2C /* ImfMultiPartInputFile.cpp in Sources */,
+				E4788DE31E3112C100D1BF2C /* ImfDoubleAttribute.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E4788C821E310FDC00D1BF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4788C831E310FDC00D1BF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4788C851E310FDC00D1BF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KG6GWND6BG;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/IlmBase",
+					"$(SRCROOT)/IlmBase/Half",
+					"$(SRCROOT)/IlmBase/Iex",
+					"$(SRCROOT)/IlmBase/IlmThread",
+					"$(SRCROOT)/IlmBase/Imath",
+					"$(SRCROOT)/OpenEXR",
+					"$(SRCROOT)/OpenEXR/IlmImf",
+					"${DERIVED_SOURCES_DIR}",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4788C861E310FDC00D1BF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KG6GWND6BG;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/IlmBase",
+					"$(SRCROOT)/IlmBase/Half",
+					"$(SRCROOT)/IlmBase/Iex",
+					"$(SRCROOT)/IlmBase/IlmThread",
+					"$(SRCROOT)/IlmBase/Imath",
+					"$(SRCROOT)/OpenEXR",
+					"$(SRCROOT)/OpenEXR/IlmImf",
+					"${DERIVED_SOURCES_DIR}",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4788ECA1E3114DD00D1BF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KG6GWND6BG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4788ECB1E3114DD00D1BF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KG6GWND6BG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4788C761E310FDC00D1BF2C /* Build configuration list for PBXProject "OpenEXRLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4788C821E310FDC00D1BF2C /* Debug */,
+				E4788C831E310FDC00D1BF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4788C841E310FDC00D1BF2C /* Build configuration list for PBXNativeTarget "OpenEXRLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4788C851E310FDC00D1BF2C /* Debug */,
+				E4788C861E310FDC00D1BF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4788EC91E3114DD00D1BF2C /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4788ECA1E3114DD00D1BF2C /* Debug */,
+				E4788ECB1E3114DD00D1BF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4788C731E310FDC00D1BF2C /* Project object */;
+}
