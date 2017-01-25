@@ -469,7 +469,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E4788C7B1E310FDC00D1BF2C /* libOpenEXRLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOpenEXRLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4788C7B1E310FDC00D1BF2C /* libOpenEXR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOpenEXR.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4788CA81E31122E00D1BF2C /* AutoGenerateHeaderFiles.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = AutoGenerateHeaderFiles.sh; sourceTree = SOURCE_ROOT; };
 		E4788CA91E31122E00D1BF2C /* BuildUniversalLibrary.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = BuildUniversalLibrary.sh; sourceTree = SOURCE_ROOT; };
 		E4788CAA1E31124600D1BF2C /* half.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = half.cpp; path = IlmBase/Half/half.cpp; sourceTree = SOURCE_ROOT; };
@@ -766,7 +766,7 @@
 		E4788C7C1E310FDC00D1BF2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4788C7B1E310FDC00D1BF2C /* libOpenEXRLib.a */,
+				E4788C7B1E310FDC00D1BF2C /* libOpenEXR.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1117,9 +1117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4788C7A1E310FDC00D1BF2C /* OpenEXRLib */ = {
+		E4788C7A1E310FDC00D1BF2C /* OpenEXR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4788C841E310FDC00D1BF2C /* Build configuration list for PBXNativeTarget "OpenEXRLib" */;
+			buildConfigurationList = E4788C841E310FDC00D1BF2C /* Build configuration list for PBXNativeTarget "OpenEXR" */;
 			buildPhases = (
 				E4788E241E3113EF00D1BF2C /* ShellScript */,
 				E4788C771E310FDC00D1BF2C /* Sources */,
@@ -1130,9 +1130,9 @@
 			);
 			dependencies = (
 			);
-			name = OpenEXRLib;
-			productName = OpenEXRLib;
-			productReference = E4788C7B1E310FDC00D1BF2C /* libOpenEXRLib.a */;
+			name = OpenEXR;
+			productName = OpenEXR;
+			productReference = E4788C7B1E310FDC00D1BF2C /* libOpenEXR.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -1168,7 +1168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4788C7A1E310FDC00D1BF2C /* OpenEXRLib */,
+				E4788C7A1E310FDC00D1BF2C /* OpenEXR */,
 				E4788EC81E3114DD00D1BF2C /* UniversalLib */,
 			);
 		};
@@ -1479,7 +1479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4788C841E310FDC00D1BF2C /* Build configuration list for PBXNativeTarget "OpenEXRLib" */ = {
+		E4788C841E310FDC00D1BF2C /* Build configuration list for PBXNativeTarget "OpenEXR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4788C851E310FDC00D1BF2C /* Debug */,
