@@ -291,6 +291,8 @@
 		E4788EC51E3114A900D1BF2C /* ImfXdr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DC61E3112C100D1BF2C /* ImfXdr.h */; };
 		E4788EC61E3114A900D1BF2C /* ImfZip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DC81E3112C100D1BF2C /* ImfZip.h */; };
 		E4788EC71E3114A900D1BF2C /* ImfZipCompressor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4788DCA1E3112C100D1BF2C /* ImfZipCompressor.h */; };
+		E4C726811E389B1700F82A54 /* IlmBaseConfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4C7267F1E389AE700F82A54 /* IlmBaseConfig.h */; };
+		E4C726821E389B1F00F82A54 /* OpenEXRConfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4C726801E389AFA00F82A54 /* OpenEXRConfig.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -300,6 +302,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				E4C726821E389B1F00F82A54 /* OpenEXRConfig.h in CopyFiles */,
+				E4C726811E389B1700F82A54 /* IlmBaseConfig.h in CopyFiles */,
 				E4788E5A1E3114A900D1BF2C /* ImfAcesFile.h in CopyFiles */,
 				E4788E5B1E3114A900D1BF2C /* ImfArray.h in CopyFiles */,
 				E4788E5C1E3114A900D1BF2C /* ImfAttribute.h in CopyFiles */,
@@ -742,6 +746,8 @@
 		E4788DC81E3112C100D1BF2C /* ImfZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfZip.h; path = OpenEXR/IlmImf/ImfZip.h; sourceTree = SOURCE_ROOT; };
 		E4788DC91E3112C100D1BF2C /* ImfZipCompressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImfZipCompressor.cpp; path = OpenEXR/IlmImf/ImfZipCompressor.cpp; sourceTree = SOURCE_ROOT; };
 		E4788DCA1E3112C100D1BF2C /* ImfZipCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImfZipCompressor.h; path = OpenEXR/IlmImf/ImfZipCompressor.h; sourceTree = SOURCE_ROOT; };
+		E4C7267F1E389AE700F82A54 /* IlmBaseConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IlmBaseConfig.h; path = IlmBase/IlmBaseConfig.h; sourceTree = SOURCE_ROOT; };
+		E4C726801E389AFA00F82A54 /* OpenEXRConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenEXRConfig.h; path = OpenEXR/OpenEXRConfig.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -777,6 +783,7 @@
 				E4788C891E31104300D1BF2C /* Build Phases */,
 				E4788C881E31103900D1BF2C /* IlmBase */,
 				E4788C871E31103000D1BF2C /* OpenEXR */,
+				E4C726801E389AFA00F82A54 /* OpenEXRConfig.h */,
 			);
 			path = OpenEXRLib;
 			sourceTree = "<group>";
@@ -796,6 +803,7 @@
 				E4788C8E1E3110B000D1BF2C /* Iex */,
 				E4788C8D1E3110A700D1BF2C /* IlmThread */,
 				E4788C8C1E3110A000D1BF2C /* Imath */,
+				E4C7267F1E389AE700F82A54 /* IlmBaseConfig.h */,
 			);
 			name = IlmBase;
 			sourceTree = "<group>";
