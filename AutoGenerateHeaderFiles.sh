@@ -41,34 +41,34 @@ mkdir -p "$DERIVED_SOURCES_DIR"
 
 cd "$SOURCE_ROOT/IlmBase/Half"
 
-g++ -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/toFloat.o" toFloat.cpp
-g++ -pipe -g -O2 -o "$OBJECT_FILE_DIR/toFloat" "$OBJECT_FILE_DIR/toFloat.o" -Wl,-bind_at_load
+g++ -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/toFloat.o" toFloat.cpp
+g++ -pipe -std=c++17 -Os -o "$OBJECT_FILE_DIR/toFloat" "$OBJECT_FILE_DIR/toFloat.o" -Wl,-bind_at_load
 "$OBJECT_FILE_DIR/toFloat" > "$DERIVED_SOURCES_DIR/toFloat.h"
 
-g++ -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/eLut.o" eLut.cpp
-g++ -pipe -g -O2 -o "$OBJECT_FILE_DIR/eLut" "$OBJECT_FILE_DIR/eLut.o" -Wl,-bind_at_load
+g++ -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/eLut.o" eLut.cpp
+g++ -pipe -std=c++17 -Os -o "$OBJECT_FILE_DIR/eLut" "$OBJECT_FILE_DIR/eLut.o" -Wl,-bind_at_load
 "$OBJECT_FILE_DIR/eLut" > "$DERIVED_SOURCES_DIR/eLut.h"
 
-g++ -DHAVE_CONFIG_H -I. -I.. -I"$DERIVED_SOURCES_DIR" -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/half.o" half.cpp
+g++ -DHAVE_CONFIG_H -I. -I.. -I"$DERIVED_SOURCES_DIR" -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/half.o" half.cpp
 
 cd "$SOURCE_ROOT/IlmBase/IlmThread"
 
-g++ -DHAVE_CONFIG_H -I. -I.. -I../Iex -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/IlmThread.o" IlmThread.cpp
-g++ -DHAVE_CONFIG_H -I. -I.. -I../Iex -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/IlmThreadPosix.o" IlmThreadPosix.cpp
-g++ -DHAVE_CONFIG_H -I. -I.. -I../Iex -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/IlmThreadSemaphore.o" IlmThreadSemaphore.cpp
-g++ -DHAVE_CONFIG_H -I. -I.. -I../Iex -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/IlmThreadSemaphorePosix.o" IlmThreadSemaphorePosix.cpp
-g++ -DHAVE_CONFIG_H -I. -I.. -I../Iex -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/IlmThreadSemaphorePosixCompat.o" IlmThreadSemaphorePosixCompat.cpp
+g++ -DHAVE_CONFIG_H -I. -I.. -I../Iex -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/IlmThread.o" IlmThread.cpp
+g++ -DHAVE_CONFIG_H -I. -I.. -I../Iex -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/IlmThreadPosix.o" IlmThreadPosix.cpp
+g++ -DHAVE_CONFIG_H -I. -I.. -I../Iex -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/IlmThreadSemaphore.o" IlmThreadSemaphore.cpp
+g++ -DHAVE_CONFIG_H -I. -I.. -I../Iex -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/IlmThreadSemaphorePosix.o" IlmThreadSemaphorePosix.cpp
+g++ -DHAVE_CONFIG_H -I. -I.. -I../Iex -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/IlmThreadSemaphorePosixCompat.o" IlmThreadSemaphorePosixCompat.cpp
 
 cd "$SOURCE_ROOT/IlmBase/Iex"
-g++ -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/IexThrowErrnoExc.o" IexThrowErrnoExc.cpp
-g++ -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/IexBaseExc.o" IexBaseExc.cpp
+g++ -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/IexThrowErrnoExc.o" IexThrowErrnoExc.cpp
+g++ -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/IexBaseExc.o" IexBaseExc.cpp
 
 cd "$SOURCE_ROOT/OpenEXR/IlmImf"
 
-g++ -DHAVE_CONFIG_H -I. -I.. -I"$SOURCE_ROOT/IlmBase/Half" -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/b44ExpLogTable.o" b44ExpLogTable.cpp
-g++ -pipe -g -O2 -o "$OBJECT_FILE_DIR/b44ExpLogTable" "$OBJECT_FILE_DIR/b44ExpLogTable.o" "$OBJECT_FILE_DIR/half.o" -Wl,-bind_at_load
+g++ -DHAVE_CONFIG_H -I. -I.. -I"$SOURCE_ROOT/IlmBase/Half" -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/b44ExpLogTable.o" b44ExpLogTable.cpp
+g++ -pipe -std=c++17 -Os -o "$OBJECT_FILE_DIR/b44ExpLogTable" "$OBJECT_FILE_DIR/b44ExpLogTable.o" "$OBJECT_FILE_DIR/half.o" -Wl,-bind_at_load
 "$OBJECT_FILE_DIR/b44ExpLogTabl"e > "$DERIVED_SOURCES_DIR/b44ExpLogTable.h"
 
-g++ -DHAVE_CONFIG_H -I. -I.. -I"$SOURCE_ROOT/IlmBase" -I"$SOURCE_ROOT/IlmBase/Half"  -I"$SOURCE_ROOT/IlmBase/Ie"x -I"$SOURCE_ROOT/IlmBase/IlmThread" -I"$SOURCE_ROOT/IlmBase/Imath" -D_THREAD_SAFE -pipe -g -O2  -MD -MP -c -o "$OBJECT_FILE_DIR/dwaLookups.o" dwaLookups.cpp
-g++ -pipe -g -O2 -o "$OBJECT_FILE_DIR/dwaLookups" "$OBJECT_FILE_DIR/dwaLookups.o" "$OBJECT_FILE_DIR/half.o" "$OBJECT_FILE_DIR/IlmThreadSemaphorePosixCompat.o" "$OBJECT_FILE_DIR/IlmThreadSemaphore.o" "$OBJECT_FILE_DIR/IlmThreadSemaphorePosix.o" "$OBJECT_FILE_DIR/IlmThreadPosix.o" "$OBJECT_FILE_DIR/IlmThread.o" "$OBJECT_FILE_DIR/IexThrowErrnoExc.o" "$OBJECT_FILE_DIR/IexBaseExc.o" -Wl,-bind_at_load
+g++ -DHAVE_CONFIG_H -I. -I.. -I"$SOURCE_ROOT/IlmBase" -I"$SOURCE_ROOT/IlmBase/Half"  -I"$SOURCE_ROOT/IlmBase/Ie"x -I"$SOURCE_ROOT/IlmBase/IlmThread" -I"$SOURCE_ROOT/IlmBase/Imath" -D_THREAD_SAFE -pipe -std=c++17 -Os -MD -MP -c -o "$OBJECT_FILE_DIR/dwaLookups.o" dwaLookups.cpp
+g++ -pipe -std=c++17 -Os -o "$OBJECT_FILE_DIR/dwaLookups" "$OBJECT_FILE_DIR/dwaLookups.o" "$OBJECT_FILE_DIR/half.o" "$OBJECT_FILE_DIR/IlmThreadSemaphorePosixCompat.o" "$OBJECT_FILE_DIR/IlmThreadSemaphore.o" "$OBJECT_FILE_DIR/IlmThreadSemaphorePosix.o" "$OBJECT_FILE_DIR/IlmThreadPosix.o" "$OBJECT_FILE_DIR/IlmThread.o" "$OBJECT_FILE_DIR/IexThrowErrnoExc.o" "$OBJECT_FILE_DIR/IexBaseExc.o" -Wl,-bind_at_load
 "$OBJECT_FILE_DIR/dwaLookups" > "$DERIVED_SOURCES_DIR/dwaLookups.h"
