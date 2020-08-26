@@ -1,0 +1,28 @@
+name: Build OpenEXR iOS static lib
+on: [push, pull_request]
+env:
+  DEVELOPER_DIR: /Applications/Xcode_11.5.app/Contents/Developer
+
+jobs:
+  build-ios:
+    runs-on: macos-10.15
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+
+    - name: Build Release
+      run: |
+        ./build_ios_lib.py out --configuration Release
+        zip --symlinks -r openexr_ios_lib.zip out/product
+        zip --symlinks -r openexr_ios_build_data.zip out
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ios_lib
+        path: openexr_ios_lib.zip
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ios_build_data
+        path: openexr_ios_build_data.zip
+
